@@ -332,6 +332,25 @@ template {
 .sidebar__img {
   width: 50%; }
 
+.sidebar__menu {
+  margin: 0;
+  padding: 40px 0; }
+
+.sidebar__menu li {
+  list-style-type: none;
+  font-family: sans-serif; }
+
+.sidebar__menu li a {
+  display: block;
+  padding: 10px 0;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.25em;
+  text-decoration: none; }
+
+.sidebar__menu li a:hover {
+  background-color: rgba(255, 255, 255, 0.1); }
+
 body {
   font-size: 14px;
   background-color: white; }

@@ -13,8 +13,8 @@
 				<li><a href="#">Artists</a></li>
 			</ul>
 			<ul class="sidebar__socialmedia">
-				<li><a href="#"></a></li>
-				<li><a href="#"></a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 			</ul>
 		</div>
 		
