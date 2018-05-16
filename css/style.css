@@ -1,5 +1,8 @@
 /* ======== Partials ======= */
 /* ======= Style Components ======= */
+h1 {
+  color: blue; }
+
 body {
   font-size: 14px;
   background-color: black; }
