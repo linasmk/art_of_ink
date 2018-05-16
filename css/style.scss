@@ -1,5 +1,6 @@
 /* ======== Partials ======= */
 @import "partials/variables";
+@import "partials/normalize";
 
 /* ======= Style Components ======= */ 
 @import "components/1.header";
@@ -7,5 +8,5 @@
 
 body {
 	font-size: 14px;
-	background-color: $black;
+	background-color: white;
 }
