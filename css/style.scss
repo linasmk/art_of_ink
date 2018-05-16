@@ -1,4 +1,11 @@
+/* ======== Partials ======= */
+@import "partials/variables";
+
+/* ======= Style Components ======= */ 
+@import "components/1.header";
+
+
 body {
 	font-size: 14px;
-	background-color: black;
+	background-color: $black;
 }
