@@ -307,7 +307,8 @@ template {
   height: 44px;
   padding: 4px 8px;
   background: black;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: pointer; }
 
 .menu-icon.active {
   background-color: rgba(0, 0, 0, 0.5); }
@@ -383,13 +384,13 @@ template {
   padding: 0 20px;
   box-sizing: border-box; }
 
-.sidebar__socialmedia li {
+.socialmedia__li {
   width: 50%;
   list-style: none;
   display: flex;
   justify-content: center; }
 
-.sidebar__socialmedia li a {
+.socialmedia__a {
   display: block;
   font-size: 2em;
   color: white;
@@ -400,7 +401,7 @@ template {
   background-color: rgba(255, 255, 255, 0.3);
   transition: .5s; }
 
-.sidebar__socialmedia li a:hover {
+.socialmedia__a:hover {
   background-color: rgba(255, 255, 255, 0.1); }
 
 @media screen and (min-width: 768px) {
@@ -417,6 +418,21 @@ template {
 
   .sidebar__img {
     width: 50%; } }
+.footer {
+  color: white;
+  background: black; }
+
+.phoneLink {
+  text-decoration: none;
+  color: white; }
+
+.footer__socialmedia {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
 body {
   font-size: 14px;
   background-color: white; }
