@@ -20,6 +20,8 @@
 <?php require "includes/header.php" ?>
 
 <?php require "includes/footer.php" ?>
+
+<script src="js/date.js"></script>
 	
 </body>
 </html>

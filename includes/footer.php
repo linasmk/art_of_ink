@@ -24,13 +24,13 @@
 
 	<h2>Opening hours</h2>
 	<ul>
-		<li>Monday: 10 - 18</li>
-		<li>Tuesday: 11 - 19</li>
-		<li>Wednesday: 10 - 18</li>
-		<li>Thursday: 10 - 18</li>
-		<li>Friday: 10 - 18</li>
-		<li>Saturday: Closed</li>
-		<li>Sunday: closed</li>
+		<li id="monday">Monday: 10 - 18</li>
+		<li id="tuesday">Tuesday: 11 - 19</li>
+		<li id="wednesday">Wednesday: 10 - 18</li>
+		<li id="thursday">Thursday: 10 - 18</li>
+		<li id="friday">Friday: 10 - 18</li>
+		<li id="saturday">Saturday: Closed</li>
+		<li id="sunday">Sunday: Closed</li>
 	</ul>
 
 </footer>
