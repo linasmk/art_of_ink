@@ -350,7 +350,7 @@ template {
   left: 0; }
 
 .sidebar__img {
-  width: 40%;
+  width: 80%;
   height: auto; }
 
 .sidebar__menu {
@@ -403,6 +403,20 @@ template {
 .sidebar__socialmedia li a:hover {
   background-color: rgba(255, 255, 255, 0.1); }
 
+@media screen and (min-width: 768px) {
+  .sidebar {
+    left: -40%;
+    width: 40%; }
+
+  .sidebar__img {
+    width: 60%; } }
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    left: -30%;
+    width: 30%; }
+
+  .sidebar__img {
+    width: 50%; } }
 body {
   font-size: 14px;
   background-color: white; }
