@@ -9,7 +9,7 @@ body, html {
 
 .parallax {
     /* The image used */
-    background-image: url('artofink.jpg');
+    background-image: url("./img/artofink.jpg");
 
     /* Full height */
     height: 100%; 
