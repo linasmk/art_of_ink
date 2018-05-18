@@ -1,5 +1,5 @@
 <footer class="footer">
-	<h1>Contact</h1>
+	<h1 class="footer__h1">Contact</h1>
 
 	<h2>Address</h2>
 	<p>Grønnegade 58 <br>
@@ -10,15 +10,15 @@
 	<p><a href="tel:+4566119060" class="phoneLink">+45 66 11 90 60</a></p>
 
 	<h2>Social media</h2>
-	<ul>
-		<li class="socialmedia__li">
+	<ul class="footer__socialmedia">
+		<li class="footer__socialmedia__li socialmedia__li">
 			<a href="https://www.facebook.com/aoiaarhus/" target="_blank" class="socialmedia__a">
-				<i class="fab fa-facebook-f"></i>
+				<img src="./img/facebook_icon.svg" alt="facebook icon">
 			</a>
 		</li>
-		<li class="socialmedia__li">
+		<li class="footer__socialmedia__li socialmedia__li">
 			<a href="https://www.instagram.com/artofink_dk/" target="_blank" class="socialmedia__a">
-				<i class="fab fa-instagram"></i>
+				<img src="./img/instagram_icon.svg" alt="instagram icon">
 			</a>
 		</li>
 	</ul>

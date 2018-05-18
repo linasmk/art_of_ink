@@ -24,6 +24,7 @@
 
 <?php require "includes/footer.php" ?>
 
+<script src="js/facebook_like.js"></script>
 <script src="js/date.js"></script>
 	
 </body>
