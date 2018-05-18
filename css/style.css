@@ -1,4 +1,6 @@
 /* ======== Partials ======= */
+/* colors */
+/* Fonts */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -299,6 +301,8 @@ template {
   display: none; }
 
 /* ======= Style Components ======= */
+/* colors */
+/* Fonts */
 .menu-icon {
   position: fixed;
   top: 20px;
@@ -390,19 +394,15 @@ template {
   display: flex;
   justify-content: center; }
 
-.socialmedia__a {
+.socialmedia__a img {
+  transition: .5s;
   display: block;
-  font-size: 2em;
-  color: white;
-  width: 1.5em;
-  height: 1.5em;
-  line-height: 1.5em;
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: .5s; }
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 1.5em; }
 
-.socialmedia__a:hover {
-  background-color: rgba(255, 255, 255, 0.1); }
+.socialmedia__a img:hover {
+  opacity: .5; }
 
 @media screen and (min-width: 768px) {
   .sidebar {
@@ -418,26 +418,105 @@ template {
 
   .sidebar__img {
     width: 50%; } }
+/* colors */
+/* Fonts */
 .footer {
   color: white;
-  background: black; }
+  background: black;
+  text-align: center; }
+
+.footer__h1 {
+  margin: 0;
+  padding: 5% 0; }
 
 .phoneLink {
   text-decoration: none;
   color: white; }
 
 .footer__socialmedia {
+  margin: 0;
+  bottom: 2em;
+  left: 0;
   display: flex;
   justify-content: center;
   width: 100%;
   padding: 0 20px;
   box-sizing: border-box; }
 
-.bold {
-  font-weight: bold; }
+.footer__socialmedia__li {
+  width: 20%; }
 
+.bold {
+  font-weight: 900; }
+
+.openingHours {
+  list-style-type: none;
+  margin: 0;
+  text-align: left; }
+
+.googleMaps {
+  width: 100%;
+  height: 45vh; }
+
+body, html {
+  height: 100%; }
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/artofink.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.about {
+  height: 1000px;
+  background-color: grey;
+  font-size: 36px;
+  background-image: url("../img/parallaximagebg1.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax {
+  height: 90%;
+  text-align: center;
+  display: table;
+  width: 100%; }
+
+.parallax h1 {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 12vw;
+  font-family: 'Kumar One', cursive; }
+
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-image: url("../img/mobilebg.jpg"); }
+
+  .parallax h1 {
+    display: none; } }
 body {
   font-size: 14px;
-  background-color: white; }
+  background-color: white;
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: Simpel-Medium;
+  src: url(../fonts/Simpel-Medium.otf); }
+p, li, a, h1, h2, h3, h4, h5, h6 {
+  font-family: Simpel-Medium; }
+
+p, li, a {
+  font-weight: 100; }
 
 /*# sourceMappingURL=style.css.map */

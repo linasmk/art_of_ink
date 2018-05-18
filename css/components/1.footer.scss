@@ -3,6 +3,12 @@
 .footer {
 	color: $white;
 	background: $black;
+	text-align: center;
+}
+
+.footer__h1 {
+	margin: 0;
+	padding: 5% 0;
 }
 
 .phoneLink {
@@ -11,6 +17,9 @@
 }
 
 .footer__socialmedia {
+	margin: 0;
+	bottom: 2em;
+	left: 0;
 	display: flex;
 	justify-content: center;
 	width: 100%;
@@ -18,6 +27,21 @@
 	box-sizing: border-box;
 }
 
+.footer__socialmedia__li {
+	width: 20%;
+}
+
 .bold {
-	font-weight: bold;
+	font-weight: 900;
+}
+
+.openingHours {
+	list-style-type: none;
+	margin: 0;
+	text-align: left;
+}
+
+.googleMaps {
+	width: 100%;
+	height: 45vh;
 }
