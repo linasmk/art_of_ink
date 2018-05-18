@@ -10,4 +10,19 @@
 body {
 	font-size: 14px;
 	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: Simpel-Medium;
+    src: url(../fonts/Simpel-Medium.otf);
+}
+
+p, li, a, h1, h2, h3, h4, h5, h6 {
+	font-family: $mainFont;
+}
+
+p, li, a {
+	font-weight: 100;
 }
