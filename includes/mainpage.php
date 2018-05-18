@@ -8,9 +8,11 @@
 </head>
 <body>
 
-<div class="parallax"></div>
+<div class="parallax">
+		<h1> Art of Ink </h1>
+</div>
 
-<div style="height:1000px;background-color:grey;font-size:36px">
+<div class="about">
 Parallax
 </div>
 

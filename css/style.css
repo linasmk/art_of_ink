@@ -472,6 +472,30 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.about {
+  height: 1000px;
+  background-color: grey;
+  font-size: 36px; }
+
+.parallax {
+  height: 90%;
+  text-align: center;
+  display: table;
+  width: 100%; }
+
+.parallax h1 {
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 12vw;
+  font-family: 'Kumar One', cursive; }
+
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-image: url("../img/mobilebg.jpg"); }
+
+  .parallax h1 {
+    display: none; } }
 body {
   font-size: 14px;
   background-color: white;
