@@ -474,6 +474,12 @@ body, html {
   font-size: 12vw;
   font-family: 'Kumar One', cursive; }
 
+@media only screen and (max-width: 600px) {
+  .parallax {
+    background-image: url("../img/mobilebg.jpg"); }
+
+  .parallax h1 {
+    display: none; } }
 body {
   font-size: 14px;
   background-color: white;

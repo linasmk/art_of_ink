@@ -35,3 +35,11 @@ body, html {
    font-family: 'Kumar One', cursive;
   
 }
+@media only screen and (max-width: 600px) {
+    .parallax {
+         background-image: url("../img/mobilebg.jpg");
+    }
+    .parallax h1 {
+        display:none;
+    }
+}
