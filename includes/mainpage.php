@@ -10,7 +10,7 @@
 
 <div class="parallax"></div>
 
-<div style="height:1000px;background-color:grey;font-size:36px">
+<div class="about">
 Parallax
 </div>
 

@@ -456,6 +456,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.about {
+  height: 1000px;
+  background-color: grey;
+  font-size: 36px; }
+
 body {
   font-size: 14px;
   background-color: white;
