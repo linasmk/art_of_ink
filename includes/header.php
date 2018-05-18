@@ -1,6 +1,6 @@
 <body>
 	<header class="header">
-		<div class="menu-icon">
+		<div class="menu-icon menu">
 			<span></span>
 			<span></span>
 			<span></span>
