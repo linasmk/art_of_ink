@@ -12,7 +12,7 @@
 			<ul class="sidebar__menu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="#">About</a></li>
-				<li><a href="#">Artists</a></li>
+				<li><a href="artists.php">Artists</a></li>
 			</ul>
 
 			<div class="fb-like" data-href="https://www.facebook.com/aoiaarhus/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
