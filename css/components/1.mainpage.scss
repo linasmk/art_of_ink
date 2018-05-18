@@ -19,6 +19,16 @@ body, html {
     height:1000px;
     background-color:grey;
     font-size:36px;
+     background-image: url("../img/parallaximagebg1.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .parallax {
     height: 90%; 
