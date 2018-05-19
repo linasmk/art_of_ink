@@ -48,6 +48,7 @@
 	padding: 2em 1em 1em 1em;
 	text-align: center;
 	box-sizing: border-box;
+	z-index: 9999;
 }
 .sidebar.active {
 	left: 0;
