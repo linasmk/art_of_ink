@@ -310,22 +310,36 @@ template {
   list-style: none;
   padding: 0; }
   .artists__ul li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     padding: 20px 0; }
     .artists__ul li a {
       display: block;
+      flex-basis: 100%;
+      flex-grow: 4;
       text-decoration: none;
       color: black;
       font-weight: 800;
-      font-size: 1.75em; }
+      font-size: 1.75em;
+      flex-grow: 2; }
     .artists__ul li img {
+      flex-grow: 0;
+      align-self: flex-start;
+      justify-content: flex-start;
+      flex-basis: auto;
       margin: 15px 0;
       border-radius: 50%;
-      width: 50%;
+      width: 40%;
       height: auto; }
     .artists__ul li p {
+      flex-shrink: 2;
+      flex-basis: 45%;
       font-size: 1.25em;
       color: darkgray; }
     .artists__ul li button {
+      flex-grow: 0;
       background-color: black;
       color: white;
       text-align: center;
