@@ -327,7 +327,8 @@ template {
     .artists__ul li button {
       background-color: black;
       color: white;
-      padding: 0.75em;
+      text-align: center;
+      padding: 0.75em 1em;
       border: none;
       position: relative;
       -webkit-transition-duration: 0.4s;
@@ -336,6 +337,25 @@ template {
       text-decoration: none;
       overflow: hidden;
       cursor: pointer; }
+    .artists__ul li button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+    .artists__ul li button:hover span {
+      padding-right: 25px; }
+    .artists__ul li button:hover span:after {
+      opacity: 1;
+      right: 0; }
+    .artists__ul li button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s; }
+    .artists__ul li button:hover {
+      background-color: rgba(0, 0, 0, 0.9); }
     .artists__ul li button:after {
       content: "";
       background: white;
@@ -348,6 +368,10 @@ template {
       outline: none;
       opacity: 0;
       transition: all 1s; }
+    .artists__ul li button:active {
+      background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 5px #666;
+      transform: translateY(4px); }
     .artists__ul li button:active:after {
       padding: 0;
       margin: 0;

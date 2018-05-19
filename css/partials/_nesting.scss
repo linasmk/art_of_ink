@@ -30,7 +30,8 @@
 		button {
 			background-color: $black;
 			color: $white;
-			padding: 0.75em;
+			text-align: center;
+			padding: 0.75em 1em;
 			border: none;
 			position: relative;
 			-webkit-transition-duration: 0.4s; /* Safari */
@@ -38,6 +39,30 @@
      		text-decoration: none;
     		overflow: hidden;
     		cursor: pointer;
+		}
+		button span {
+  		cursor: pointer;
+  		display: inline-block;
+  		position: relative;
+  		transition: 0.5s;
+		}
+		button:hover span {
+  		padding-right: 25px;
+		}
+		button:hover span:after {
+  		opacity: 1;
+  		right: 0;
+		}
+		button span:after {
+  		content: '\00bb';
+  		position: absolute;
+  		opacity: 0;
+  		top: 0;
+  		right: -20px;
+  		transition: 0.5s;
+		}
+		button:hover {
+			background-color: rgba(0, 0, 0, 0.9);
 		}
 		button:after {
     		content: "";
@@ -52,6 +77,11 @@
     		opacity: 0;
     		transition: all 1s
     	}
+    	button:active {
+  		background-color: rgba(0, 0, 0, 0.5);
+  		box-shadow: 0 5px #666;
+  		transform: translateY(4px);
+}
     	button:active:after {
     	padding: 0;
     	margin: 0;
