@@ -14,6 +14,11 @@
   text-align: center;
   margin-top: 25%; }
 
+.machine {
+  background: blue;
+  grid-area: 1/2;
+  height: 50px; }
+
 @media screen and (min-width: 480px) {
   .main--artists {
     display: grid;
