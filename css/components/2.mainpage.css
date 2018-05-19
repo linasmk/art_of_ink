@@ -3,19 +3,27 @@ body, html {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/artofink.jpg");
+  background-image: url(../img/artofink.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-attachment: fixed; }
 
 .about {
   height: 1000px;
   background-color: grey;
-  font-size: 36px; }
+  font-size: 36px;
+  background-image: url(../img/parallaximagebg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed; }
 
 .parallax {
   height: 90%;
@@ -37,4 +45,4 @@ body, html {
   .parallax h1 {
     display: none; } }
 
-/*# sourceMappingURL=1.mainpage.css.map */
+/*# sourceMappingURL=2.mainpage.css.map */

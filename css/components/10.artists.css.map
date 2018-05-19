@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAY;AAIZ,WAAW;ACDX,cAAe;ECKd,OAAO,EAAE,IAAI;EACb,qBAAqB,EDLP,SAAS;EACvB,gBAAgB,EDHT,KAAkB;;ACK1B,iBAAkB;EACjB,SAAS,EAAE,GAAG;;AAGf,oBAAqB;EACpB,KAAK,EDXE,KAAY;ECYnB,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,GAAG",
+"sources": ["../partials/_variables.scss","10.artists.scss","../partials/_mixins.scss"],
+"names": [],
+"file": "10.artists.css"
+}

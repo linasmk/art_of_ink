@@ -1,32 +1,32 @@
+@import "../partials/mixins";
+
 body, html {
     height: 100%;
 }
 
 .parallax {
     /* The image used */
-    background-image: url("../img/artofink.jpg");
-
+    @include backgroundIMG(url(../img/artofink.jpg), cover, center);
     /* Full height */
     height: 100%; 
-
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .about {
     height:1000px;
     background-color:grey;
     font-size:36px;
+    @include backgroundIMG(url(../img/parallaximagebg1.jpg), cover, center);
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
 }
 .parallax {
     height: 90%; 
     text-align:center; 
     display:table;
     width:100%;
-
-
 }
 .parallax h1 {
    display:table-cell; vertical-align:middle;
