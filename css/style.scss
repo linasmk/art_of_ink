@@ -3,11 +3,12 @@
 @import "partials/normalize";
 @import "partials/nesting";
 
-/* ======= Style Components ======= */ 
+/* ======= Style Components ======= */
 @import "components/1.header";
 @import "components/2.mainpage";
 @import "components/3.footer";
 @import "components/10.artists";
+@import "components/instagram";
 
 
 body {
