@@ -1,0 +1,17 @@
+@import "../partials/variables";
+@import "../partials/mixins";
+
+.main--artists {
+	@include grid(5% 90% 5%);
+	background-color: $white;
+}
+.article--artists {
+	grid-area: 1/2;
+}
+
+.article--artists h1 {
+	color: $black;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 25%;
+}
