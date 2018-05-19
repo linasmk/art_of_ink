@@ -27,3 +27,4 @@
 	
 	</main>
 <?php include "includes/footer.php" ?>
+<script src="./js/hamburger.js"></script>
