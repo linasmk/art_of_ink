@@ -1,13 +1,14 @@
 <body>
+
 	<div id="fb-root"></div>
 
 	<header class="header">
-		<div class="menu-icon menu">
+		<div id="menu-icon" class="menu-icon menu">
 			<span></span>
 			<span></span>
 			<span></span>
 		</div>
-		<div class="sidebar">
+		<div id="sidebar" class="sidebar">
 			<a href="index.php"><img class="sidebar__img" src="img/logo.png" alt="logo"></a>
 			<ul class="sidebar__menu">
 				<li><a href="index.php">Home</a></li>
