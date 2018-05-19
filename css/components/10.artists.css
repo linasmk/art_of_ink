@@ -2,7 +2,7 @@
 /* Fonts */
 .main--artists {
   display: grid;
-  grid-template-columns: 5% 90% 5%;
+  grid-template-columns: 2.5% 95% 2.5%;
   background-color: white; }
 
 .article--artists {
@@ -10,8 +10,37 @@
 
 .article--artists h1 {
   color: black;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   margin-top: 25%; }
+
+@media screen and (min-width: 480px) {
+  .main--artists {
+    display: grid;
+    grid-template-columns: 5% 90% 5%; }
+
+  .article--artists h1 {
+    margin-top: 20%; } }
+@media screen and (min-width: 768px) {
+  .main--artists {
+    display: grid;
+    grid-template-columns: 10% 80% 10%; }
+
+  .article--artists h1 {
+    margin-top: 15%; } }
+@media screen and (min-width: 1024px) {
+  .main--artists {
+    display: grid;
+    grid-template-columns: 15% 70% 15%; }
+
+  .article--artists h1 {
+    margin-top: 10%; } }
+@media screen and (min-width: 1324px) {
+  .main--artists {
+    display: grid;
+    grid-template-columns: 20% 60% 20%; }
+
+  .article--artists h1 {
+    margin-top: 5%; } }
 
 /*# sourceMappingURL=10.artists.css.map */
