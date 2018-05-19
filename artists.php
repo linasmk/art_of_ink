@@ -28,3 +28,5 @@
 	</main>
 <?php include "includes/footer.php" ?>
 <script src="./js/hamburger.js"></script>
+<script src="js/facebook_like.js"></script>
+<script src="js/date.js"></script>
