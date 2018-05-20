@@ -8,7 +8,7 @@
 					<a href="https://www.instagram.com/jonaswilly/">Jonas Willy Brund-Andersen</a>
 					<img src="img/jwilly.jpg" alt="Jonas Willy">
 					<p>Tattoo artist. Art Of Ink - Aarhus/Denmark Husband and father. Train insane. I tattoo in every style. -No challenge too big, no tattoo too small.</p>
-					<button><span>See my profile</span></button>
+					<button><span><a href="jwilly.php">See my profile</a></span></button>
 				</li>
 				<li>
 					<a href="https://www.instagram.com/simonbrandt8k/">Simon Brandt</a>

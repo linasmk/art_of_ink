@@ -387,6 +387,10 @@ template {
       margin: 0;
       opacity: 1;
       transition: 0s; }
+    .artists__ul li button span a {
+      color: white;
+      text-align: center;
+      font-size: 1em; }
 
 /* ======= Style Components ======= */
 /* colors */
