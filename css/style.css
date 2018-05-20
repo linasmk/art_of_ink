@@ -313,33 +313,27 @@ template {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: flex-start;
     padding: 20px 0; }
     .artists__ul li a {
       display: block;
-      flex-basis: 100%;
-      flex-grow: 4;
+      width: 100%;
       text-decoration: none;
       color: black;
       font-weight: 800;
-      font-size: 1.75em;
-      flex-grow: 2; }
+      font-size: 1.75em; }
     .artists__ul li img {
-      flex-grow: 0;
-      align-self: flex-start;
-      justify-content: flex-start;
-      flex-basis: auto;
+      width: 50%;
+      height: 50%;
       margin: 15px 0;
-      border-radius: 50%;
-      width: 40%;
-      height: auto; }
+      border-radius: 50%; }
     .artists__ul li p {
-      flex-shrink: 2;
-      flex-basis: 45%;
+      width: 100%;
+      align-self: center;
+      text-align: left;
       font-size: 1.25em;
-      color: darkgray; }
+      color: darkgray;
+      margin: 15px 0; }
     .artists__ul li button {
-      flex-grow: 0;
       background-color: black;
       color: white;
       text-align: center;
@@ -621,11 +615,6 @@ body, html {
   text-align: center;
   margin-top: 25%; }
 
-.machine {
-  background: blue;
-  grid-area: 1/2;
-  height: 50px; }
-
 @media screen and (min-width: 480px) {
   .main--artists {
     display: grid;
@@ -633,6 +622,14 @@ body, html {
 
   .article--artists h1 {
     margin-top: 20%; } }
+@media screen and (min-width: 568px) {
+  .artists__ul li img {
+    width: 30%;
+    height: 30%; }
+
+  .artists__ul li p {
+    width: calc(70% - 30px);
+    margin: 15px 15px; } }
 @media screen and (min-width: 768px) {
   .main--artists {
     display: grid;

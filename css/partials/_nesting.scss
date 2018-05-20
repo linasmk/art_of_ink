@@ -12,37 +12,31 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
-		justify-content: flex-start;
 		padding: 20px 0;
 
 		a {
 			display: block;
-			flex-basis: 100%;
-			flex-grow: 4;
+			width: 100%;
 			text-decoration: none;
 			color: $black;
 			font-weight: 800;
 			font-size: 1.75em;
-			flex-grow: 2;
 		}
 		img {
-			flex-grow: 0;
-			align-self: flex-start;
-			justify-content: flex-start;
-			flex-basis: auto;
+			width: 50%;
+			height: 50%;
 			margin: 15px 0;
 			border-radius: 50%;
-			width: 40%;
-			height: auto;
 		}
 		p {
-			flex-shrink: 2;
-			flex-basis: 45%;
+			width: 100%;
+			align-self: center;
+			text-align: left;
 			font-size: 1.25em;
 			color: $darkgrey;
+			margin: 15px 0;
 		}
 		button {
-			flex-grow: 0;
 			background-color: $black;
 			color: $white;
 			text-align: center;
