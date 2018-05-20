@@ -15,15 +15,32 @@ body, html {
 .about {
     height:1000px;
     background-color:grey;
-    font-size:36px;
+    font-size:29px;
     @include backgroundIMG(url(../img/parallaximagebg1.jpg), cover, center);
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
+
+}
+.about p {
+    font-size:20px;
+    color:white;
+
+}
+.about-headline-image{
+    display:flex;
+    justify-content:center;
+
+}
+
+.about-headline{
+    display:flex;
+    justify-content:center;
+    padding-top:30px;
 }
 .parallax {
-    height: 90%; 
+    height: 100%; 
     text-align:center; 
     display:table;
     width:100%;
@@ -41,5 +58,7 @@ body, html {
     }
     .parallax h1 {
         display:none;
+        
     }
+
 }
