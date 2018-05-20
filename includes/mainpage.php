@@ -14,7 +14,15 @@
 </div>
 
 <div class="about">
-Parallax
+
+<h1 class="about-headline">Who we are?</h1>
+	<div class="about-headline-image">
+<img src="img/logo.png">
+</div>
+<aside>
+	<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum has been the industry's standard.</p>
+</aside>
+
 </div>
 
 <div class="insta">

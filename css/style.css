@@ -530,7 +530,7 @@ body, html {
 .about {
   height: 1000px;
   background-color: grey;
-  font-size: 36px;
+  font-size: 29px;
   background-image: url(../img/parallaximagebg1.jpg);
   background-size: cover;
   background-position: center;
@@ -540,8 +540,21 @@ body, html {
   /* Create the parallax scrolling effect */
   background-attachment: fixed; }
 
+.about p {
+  font-size: 20px;
+  color: white; }
+
+.about-headline-image {
+  display: flex;
+  justify-content: center; }
+
+.about-headline {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px; }
+
 .parallax {
-  height: 90%;
+  height: 100%;
   text-align: center;
   display: table;
   width: 100%; }
@@ -794,7 +807,8 @@ body {
   font-family: Simpel-Medium;
   src: url(../fonts/Simpel-Medium.otf); }
 p, li, a, h1, h2, h3, h4, h5, h6 {
-  font-family: Simpel-Medium; }
+  font-family: Simpel-Medium;
+  color: white; }
 
 p, li, a {
   font-weight: 100; }
