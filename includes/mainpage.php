@@ -13,31 +13,23 @@
 		<h1> Art of Ink </h1>
 </div>
 
-<div class="about">
+<section class="about">
 
-<h1 class="about-headline">Who we are?</h1>
-	<div class="about-headline-image">
-<img src="img/logo.png">
-</div>
-<aside>
+	<h1 class="about-headline">Who are we?</h1>
 	<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum has been the industry's standard.</p>
-</aside>
 
-</div>
+</section>
 
+<section class="works">
+		<h1>Our works</h1>
 <div class="insta">
 	<div class='instagrid section' id='Instagram'>
 		<div class='instagrid.css' data-version='1' id='instagridz'>
-						<h2 class='title' id="instagrid-title">
-							<h2>Our works</h2>
-						</h2>
 			<div class='instagrid.css'>
 							<script type='text/javascript'>
 
-
-
 							var feed=new ody({get:"user",
-								limit:69,
+								limit: 8, // Limit the number of posts shown
 
 								resolution:"standard_resolution",
 								template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
@@ -52,7 +44,7 @@
 	</div>
 </div>
 
-<div class="parallax"></div>
+</section>
 
 </body>
 </html>
