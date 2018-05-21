@@ -1,6 +1,7 @@
 /* colors */
 /* Fonts */
 .menu-icon {
+  z-index: 1;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -39,8 +40,8 @@
 .sidebar {
   position: fixed;
   top: 0;
-  left: -50%;
-  width: 50%;
+  left: -70%;
+  width: 70%;
   height: 100vh;
   background: black;
   transition: .5s;
