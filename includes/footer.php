@@ -13,7 +13,9 @@
 <section class="footerSection">
 
 	<h2 class="footer__h">Phone</h2>
-	<p class="footer__p"><a href="tel:+4566119060" class="phoneLink">+45 66 11 90 60</a></p>
+	<p class="footer__p">
+		<a href="tel:+4566119060" class="phoneLink"><img src="./img/phone-icon.svg" alt="phone icon">+45 66 11 90 60</a>
+	</p>
 
 </section>
 
