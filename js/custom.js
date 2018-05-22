@@ -3,12 +3,12 @@ $(document).ready(function() {
 
     var userFeed = new Instafeed({
         get: 'user',
-        userId: 'YOURUSERID',
+        userId: '6112814657',
         limit: 12,
         resolution: 'standard_resolution',
-        accessToken: 'YOUR ACCESS ID',
+        accessToken: '6112814657.b9c53fa.67348c6a279346a9b517e1b839d98428',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="profiles__instagram"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
 
 
