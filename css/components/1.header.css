@@ -96,8 +96,6 @@
 .socialmedia__a img {
   transition: .5s;
   display: block;
-  width: 2.5em;
-  height: 2.5em;
   line-height: 1.5em; }
 
 .socialmedia__a img:hover {

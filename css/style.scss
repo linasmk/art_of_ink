@@ -23,11 +23,11 @@ body {
 }
 
 @font-face {
-    font-family: Antlers;
-    src: url(../fonts/Antlers.ttf);
+    font-family: Stingray;
+    src: url(../fonts/Stingray.otf);
 }
 
-p, li, a, h1, h2, h3, h4, h5, h6, small {
+p, li, a, h1, h2, h3, h4, h5, h6, small, address, table {
 	font-family: $mainFont;
 	margin: 0;
 	text-align: center;
@@ -41,6 +41,7 @@ h2 {
 	font-size: 2em;
 }
 
-p, li, a {
+p, li, a, address, table, small {
 	font-weight: 100;
+	font-size: 1.5em;
 }

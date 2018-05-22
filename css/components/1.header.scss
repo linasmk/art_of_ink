@@ -99,8 +99,6 @@
 .socialmedia__a img {
 	transition: .5s;
 	display: block;
-	width: 2.5em;
-	height: 2.5em;
 	line-height: 1.5em;
 }
 .socialmedia__a img:hover {
@@ -109,20 +107,20 @@
 
 @media screen and (min-width: 768px) {
 	.sidebar {
-left: -40%;
-width: 40%;
-}
-.sidebar__img {
-	width: 60%;
-}
+		left: -40%;
+		width: 40%;
+	}
+	.sidebar__img {
+		width: 60%;
+	}
 }
 
 @media screen and (min-width: 1024px) {
-.sidebar {
-left: -30%;
-width: 30%;
-}
-.sidebar__img {
-width: 50%;
-}
+	.sidebar {
+		left: -30%;
+		width: 30%;
+	}
+	.sidebar__img {
+		width: 50%;
+	}
 }

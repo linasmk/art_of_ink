@@ -491,8 +491,6 @@ template {
 .socialmedia__a img {
   transition: .5s;
   display: block;
-  width: 2.5em;
-  height: 2.5em;
   line-height: 1.5em; }
 
 .socialmedia__a img:hover {
@@ -522,7 +520,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   /* Full height */
-  height: 95vh;
+  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   text-align: center;
@@ -534,10 +532,15 @@ body, html {
   background-color: white;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  color: black; }
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding: 0 5%; }
 
 .about p {
-  font-size: 20px; }
+  padding-top: 5%; }
 
 .about-headline-image {
   display: flex;
@@ -546,10 +549,9 @@ body, html {
 .parallax h1 {
   display: table-cell;
   vertical-align: middle;
-  color: white;
-  font-size: 9em;
-  font-family: Antlers, sans-serif;
-  text-shadow: 3px 6px #000000; }
+  font-size: 7em;
+  font-family: Stingray, sans-serif;
+  text-shadow: 1px 3px white; }
 
 .works {
   background: black; }
@@ -558,6 +560,9 @@ body, html {
   color: white;
   padding: 10% 0; }
 
+@media only screen and (min-width: 968px) {
+  .works h1 {
+    padding: 2.5% 0; } }
 @media only screen and (min-width: 1280px) {
   .about p {
     width: 70%;
@@ -581,6 +586,9 @@ body, html {
   text-decoration: none;
   color: black; }
 
+.phoneIcon {
+  vertical-align: middle; }
+
 .footer__socialmedia {
   margin: 0;
   bottom: 2em;
@@ -592,26 +600,41 @@ body, html {
   box-sizing: border-box; }
 
 .footer__socialmedia__li {
-  width: 20%; }
+  padding: 0 1.5%; }
+
+.footer__socialmedia__li:first-child {
+  justify-content: flex-end; }
+
+.footer__socialmedia__li:last-child {
+  justify-content: flex-start; }
 
 .bold {
   font-weight: 900; }
 
-.openingHours__ul {
-  list-style-type: none;
+.openingHours {
   margin: 0 auto;
-  text-align: center; }
+  text-align: left; }
+
+.openingHours td {
+  padding: 0 5%; }
 
 .googleMaps {
   width: 100%;
   height: 45vh; }
 
-@media screen and (min-width: 418px) {
-  .footer__socialmedia__li {
-    width: 15%; } }
-@media screen and (min-width: 500px) {
-  .footer__socialmedia__li {
-    width: 12.5%; } }
+.copyright {
+  background: black;
+  color: white; }
+
+@media screen and (min-width: 968px) {
+  .footer__h {
+    padding: 1.5% 0; }
+
+  .footer__p {
+    margin: 0; }
+
+  .googleMaps {
+    height: 55vh; } }
 /* colors */
 /* Fonts */
 .main--artists {
@@ -751,7 +774,10 @@ strong {
 .instagrid.css {
   background: white; }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 590px) {
+  #ody li {
+    width: 50%; } }
+@media screen and (min-width: 968px) {
   #ody li {
     width: 25%; } }
 body {
@@ -763,9 +789,9 @@ body {
   font-family: Simpel-Medium;
   src: url(../fonts/Simpel-Medium.otf); }
 @font-face {
-  font-family: Antlers;
-  src: url(../fonts/Antlers.ttf); }
-p, li, a, h1, h2, h3, h4, h5, h6, small {
+  font-family: Stingray;
+  src: url(../fonts/Stingray.otf); }
+p, li, a, h1, h2, h3, h4, h5, h6, small, address, table {
   font-family: Simpel-Medium;
   margin: 0;
   text-align: center; }
@@ -777,7 +803,8 @@ h1 {
 h2 {
   font-size: 2em; }
 
-p, li, a {
-  font-weight: 100; }
+p, li, a, address, table, small {
+  font-weight: 100;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */

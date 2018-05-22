@@ -8,7 +8,7 @@ body, html {
     /* The image used */
     @include backgroundIMG(url(../img/artofink.jpg), cover, center);
     /* Full height */
-    height: 95vh; 
+    height: 100vh; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     text-align:center; 
@@ -21,10 +21,15 @@ body, html {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     color: $black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 0 5%;
 }
 
 .about p {
-    font-size:20px;
+    padding-top: 5%;
 }
 .about-headline-image{
     display:flex;
@@ -34,10 +39,9 @@ body, html {
 .parallax h1 {
    display:table-cell;
    vertical-align:middle;
-   color:white;
-   font-size: 9em;
+   font-size: 7em;
    font-family: $frontFont, sans-serif;
-   text-shadow: 3px 6px #000000;
+   text-shadow: 1px 3px $white;
 }
 
 .works {
@@ -48,6 +52,13 @@ body, html {
 	color: $white;
 	padding: 10% 0;
 }
+
+@media only screen and (min-width: 968px) {
+	.works h1 {
+    	padding: 2.5% 0;
+	}
+}
+
 @media only screen and (min-width: 1280px) {
 	.about p {
     	width: 70%;

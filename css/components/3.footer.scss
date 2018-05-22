@@ -21,6 +21,10 @@
 	color: $black;
 }
 
+.phoneIcon {
+	vertical-align: middle;
+}
+
 .footer__socialmedia {
 	margin: 0;
 	bottom: 2em;
@@ -33,17 +37,28 @@
 }
 
 .footer__socialmedia__li {
-	width: 20%;
+	padding: 0 1.5%;
+}
+
+.footer__socialmedia__li:first-child {
+	justify-content: flex-end;
+}
+
+.footer__socialmedia__li:last-child {
+	justify-content: flex-start;
 }
 
 .bold {
 	font-weight: 900;
 }
 
-.openingHours__ul {
-	list-style-type: none;
+.openingHours {
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
+}
+
+.openingHours td {
+	padding: 0 5%;
 }
 
 .googleMaps {
@@ -51,14 +66,19 @@
 	height: 45vh;
 }
 
-@media screen and (min-width: 418px) {
-	.footer__socialmedia__li {
-		width: 15%;
-	}
+.copyright {
+	background: $black;
+	color: $white;
 }
 
-@media screen and (min-width: 500px) {
-	.footer__socialmedia__li {
-		width: 12.5%;
+@media screen and (min-width: 968px) {
+	.footer__h {
+		padding: 1.5% 0;
+	}
+	.footer__p {
+		margin: 0;
+	}
+	.googleMaps {
+		height: 55vh;
 	}
 }

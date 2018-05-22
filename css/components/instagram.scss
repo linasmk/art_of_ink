@@ -92,7 +92,13 @@ strong {
 	background: $white;
 }
 
-@media screen and (min-width : 1280px) {
+@media screen and (min-width : 590px) {
+	#ody li {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width : 968px) {
 	#ody li {
 		width: 25%;
 	}
