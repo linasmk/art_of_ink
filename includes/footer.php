@@ -37,10 +37,13 @@
 
 </section>
 
-<section class="footerSection">
+<section class="footerSection openingHours__section">
 
 	<h2 class="footer__h">Opening hours</h2>
-	<table class="openingHours">
+	<p>We are <span class="bold" id="openStatus"></span></p>
+	<p id="openMessage" class="d-none footer__p">You are welcome to come by, have a chat & a cup of coffee!</p>
+	<p id="closedMessage" class="d-none footer__p">You can send us a message on facebook or come by later.</p>
+	<table class="openingHours__table">
 		<tr id="monday">
 			<td>Monday:</td>
 			<td>10 - 18</td>
@@ -73,8 +76,8 @@
 
 </section>
 
+</footer>
+
 <div class="copyright">
 	<small>&copy; Copyright Art of Ink, 2018</small>
 </div>
-
-</footer>

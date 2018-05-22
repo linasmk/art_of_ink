@@ -28,9 +28,10 @@ body, html {
     padding: 0 5%;
 }
 
-.about p {
-    padding-top: 5%;
+.about-headline {
+	padding-top: 0;
 }
+
 .about-headline-image{
     display:flex;
     justify-content:center;
@@ -57,11 +58,60 @@ body, html {
 	.works h1 {
     	padding: 2.5% 0;
 	}
-}
-
-@media only screen and (min-width: 1280px) {
 	.about p {
     	width: 70%;
-    	padding: 5% 15%;
+    	padding: 0 15%;
 	}
+}
+
+/* Animations */
+
+.fade-in {
+	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.typewriter:after {
+  content:'';
+  animation:write 2s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes write {
+  0% {
+    content:'';
+  }
+  12.5% {
+    content:'A';
+  }
+  25% {
+    content:'Ar';
+  }  
+  37.5% {
+    content:'Art';
+  }
+  50% {
+    content:'Art o';
+  }
+  62.5% {
+    content:'Art of';
+  }
+  75% {
+    content:'Art of i';
+  }
+  87.5% {
+    content:'Art of in';
+  }
+  100% {
+    content:'Art of ink';
+  }
 }

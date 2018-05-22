@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<div class="parallax">
-		<h1> Art of Ink </h1>
+<div class="parallax" id="parallax">
+		<h1 id="mainHeadline"></h1>
 </div>
 
 <section class="about">

@@ -10,11 +10,38 @@
 @import "components/10.artists";
 @import "components/instagram";
 
+html, body {
+  height: 100%;
+}
 
 body {
 	font-size: 14px;
 	margin: 0;
 	padding: 0;
+	display: flex;
+  	flex-direction: column;
+}
+
+.wrapper {
+	 flex: 1 0 auto;
+}
+
+.d-none {
+	display: none;
+}
+
+.loader {
+	width: 100vw;
+	height: 100vh;
+	background: $white;
+}
+
+.loader img {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @font-face {
