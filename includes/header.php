@@ -12,7 +12,7 @@
 			<a href="index.php"><img class="sidebar__img" src="img/logo.png" alt="logo"></a>
 			<ul class="sidebar__menu">
 				<li><a href="index.php">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="about.php">About</a></li>
 				<li><a href="artists.php">Artists</a></li>
 			</ul>
 
