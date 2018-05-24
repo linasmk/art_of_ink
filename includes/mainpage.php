@@ -34,8 +34,8 @@
 								resolution:"standard_resolution",
 								template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
 
-							userId:420791876,
-							accessToken:"420791876.4335777.8c88822ef73b4267afb88f32082344c3"
+							userId:3424121309,
+							accessToken:"3424121309.20381ad.89e8ec8a36df4fc1912b014c3c7c6b66"
 							});feed.run();
 							</script>
 				<div id='ody'></div>
