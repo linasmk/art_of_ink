@@ -1,7 +1,7 @@
 /* colors */
 /* Fonts */
 .menu-icon {
-  z-index: 1;
+  z-index: 3;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -91,13 +91,18 @@
   width: 50%;
   list-style: none;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding: 0 5%; }
+
+.socialmedia__li:first-child {
+  justify-content: flex-end; }
+
+.socialmedia__li:last-child {
+  justify-content: flex-start; }
 
 .socialmedia__a img {
   transition: .5s;
   display: block;
-  width: 2.5em;
-  height: 2.5em;
   line-height: 1.5em; }
 
 .socialmedia__a img:hover {

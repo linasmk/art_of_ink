@@ -3,7 +3,7 @@
 	<div id="fb-root"></div>
 
 	<header class="header">
-		<div id="menu-icon" class="menu-icon menu">
+		<div id="menu-icon" class="menu-icon menu d-none">
 			<span></span>
 			<span></span>
 			<span></span>
@@ -12,7 +12,7 @@
 			<a href="index.php"><img class="sidebar__img" src="img/logo.png" alt="logo"></a>
 			<ul class="sidebar__menu">
 				<li><a href="index.php">Home</a></li>
-				<li><a href="#">About</a></li>
+				<li><a href="about.php">About</a></li>
 				<li><a href="artists.php">Artists</a></li>
 			</ul>
 

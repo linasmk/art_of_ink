@@ -12,13 +12,17 @@
 	padding: 5% 0;
 }
 
-.footerSection, .footer__p {
-	margin: 2.5% 0;
+.footer__p {
+	padding: 2.5% 0;
 }
 
 .phoneLink {
 	text-decoration: none;
 	color: $black;
+}
+
+.phoneIcon {
+	vertical-align: middle;
 }
 
 .footer__socialmedia {
@@ -33,32 +37,48 @@
 }
 
 .footer__socialmedia__li {
-	width: 20%;
+	padding: 0 1.5%;
 }
 
 .bold {
 	font-weight: 900;
 }
 
-.openingHours__ul {
-	list-style-type: none;
+.openingHours__section {
+	width: 90%;
+	padding: 0 5%;
+}
+
+.openingHours__table {
 	margin: 0 auto;
-	text-align: center;
+	text-align: left;
+}
+
+.openingHours__table td {
+	padding: 0 5%;
 }
 
 .googleMaps {
 	width: 100%;
-	height: 45vh;
+	height: 50vh;
 }
 
-@media screen and (min-width: 418px) {
-	.footer__socialmedia__li {
-		width: 15%;
+.copyright {
+	background: $black;
+	color: $white;
+	flex-shrink: 0;
+	text-align: center;
+	padding: .5% 0;
+}
+
+@media screen and (min-width: 968px) {
+	.footer__h {
+		padding: 1.5% 0;
 	}
-}
-
-@media screen and (min-width: 500px) {
-	.footer__socialmedia__li {
-		width: 12.5%;
+	.footer__p {
+		margin: 0;
+	}
+	.googleMaps {
+		height: 55vh;
 	}
 }
