@@ -1,17 +1,21 @@
 /* colors */
 /* Fonts */
 .footer {
-  color: white;
-  background: black;
-  text-align: center; }
+  color: black;
+  background: white;
+  text-align: center;
+  padding: 2.5% 0; }
 
-.footer__h1 {
+.footer__h {
   margin: 0;
   padding: 5% 0; }
 
+.footerSection, .footer__p {
+  margin: 2.5% 0; }
+
 .phoneLink {
   text-decoration: none;
-  color: white; }
+  color: black; }
 
 .footer__socialmedia {
   margin: 0;
@@ -29,10 +33,10 @@
 .bold {
   font-weight: 900; }
 
-.openingHours {
+.openingHours__ul {
   list-style-type: none;
-  margin: 0;
-  text-align: left; }
+  margin: 0 auto;
+  text-align: center; }
 
 .googleMaps {
   width: 100%;
