@@ -1,6 +1,10 @@
 <?php require "includes/head.php" ?>
+<?php require "includes/loader.php" ?>
+
+<div id="wrapper" class="wrapper d-none">
+
 <?php include "includes/header.php" ?>
-	<main class="main--artists">
+	<main class="main--artists" id="artists">
 		<article class="article--artists">
 			<h1>Meet Our Artists</h1>
 			<ul class="artists__ul">
@@ -29,6 +33,10 @@
 	
 	</main>
 <?php include "includes/footer.php" ?>
+
+</div>
+
+<script src="js/loader.js"></script>
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>
 <script src="js/date.js"></script>

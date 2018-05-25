@@ -1,8 +1,8 @@
 <?php require "includes/head.php" ?>
 
-<div class="wrapper">
-
 <?php require "includes/loader.php" ?>
+
+<div id="wrapper" class="wrapper d-none">
 
 <?php require "includes/header.php" ?>
 
