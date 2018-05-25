@@ -1,5 +1,5 @@
 <?php require "includes/head.php" ?>
-<?php require "includes/header.php" ?>
+<?php include "includes/header.php" ?>
 	<main class="main--artists">
 		<article class="article--artists">
 			<h1>Meet Our Artists</h1>
@@ -7,8 +7,10 @@
 				<li>
 					<a href="https://www.instagram.com/jonaswilly/">Jonas Willy Brund-Andersen</a>
 					<img src="img/jwilly.jpg" alt="Jonas Willy">
+					<div class="list-wrapper">
 					<p>Tattoo artist. Art Of Ink - Aarhus/Denmark Husband and father. Train insane. I tattoo in every style. -No challenge too big, no tattoo too small.</p>
 					<button><span><a href="jwilly.php">See my profile</a></span></button>
+					</div>
 				</li>
 				<li>
 					<a href="https://www.instagram.com/simonbrandt8k/">Simon Brandt</a>
@@ -27,6 +29,6 @@
 	
 	</main>
 <?php include "includes/footer.php" ?>
-<script src="./js/hamburger.js"></script>
+<script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>
 <script src="js/date.js"></script>
