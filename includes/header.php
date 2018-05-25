@@ -3,7 +3,7 @@
 	<div id="fb-root"></div>
 
 	<header class="header">
-		<div id="menu-icon" class="menu-icon menu d-none">
+		<div id="menu-icon" class="menu-icon menu">
 			<span></span>
 			<span></span>
 			<span></span>
