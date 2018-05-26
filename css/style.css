@@ -311,39 +311,54 @@ template {
   padding: 0; }
   .artists__ul li {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding: 20px 0; }
-    .artists__ul li a {
-      display: block;
+    padding: 20px 0;
+    /* Responsive Circle */
+    /* End of Responsive Circle */ }
+    .artists__ul li h2 {
       width: 100%;
-      text-decoration: none;
-      color: black;
-      font-weight: 800;
-      font-size: 1.75em; }
-    .artists__ul li img {
-      width: 50%;
-      height: 50%;
-      margin: 15px 0;
-      border-radius: 50%; }
+      font-size: 1em;
+      text-align: left;
+      align-self: flex-start; }
+      .artists__ul li h2 a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        font-size: 1.2em; }
+    .artists__ul li .responsive-circle1 {
+      font-size: 80px;
+      width: 80%; }
+    .artists__ul li .responsive-circle1::after {
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: 0;
+      padding-bottom: 100%;
+      width: 100%; }
+    .artists__ul li .bgimg1:after {
+      background-image: url(../img/jwilly.jpg);
+      background-size: 100%;
+      background-position: center;
+      background-repeat: no-repeat; }
     .artists__ul li div {
       display: flex;
       flex-direction: column;
-      width: 50%;
+      width: 100%;
       box-sizing: border-box;
-      padding: 1em; }
+      padding: 0; }
       .artists__ul li div p {
         width: 100%;
-        align-self: center;
-        text-align: left;
-        font-size: 1.25em;
+        font-size: 1em;
         color: darkgray;
-        margin: 15px 0; }
+        margin: 15px 0;
+        text-align: left; }
       .artists__ul li div button {
         background-color: black;
         color: white;
         text-align: center;
-        width: 100%;
+        width: 75%;
         padding: 0.75em 1em;
         border: none;
         outline: none;
@@ -397,11 +412,36 @@ template {
       .artists__ul li div button span a {
         color: white;
         text-align: center;
-        font-size: 1em; }
+        font-size: 1em;
+        text-decoration: none; }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
+  .artists__ul li h2 {
+    align-self: center; }
+
   .artists__ul li div button {
-    width: 50%; } }
+    width: 50%; }
+
+  .artists__ul li img {
+    width: 70%;
+    align-self: flex-start; } }
+@media screen and (min-width: 768px) {
+  .artists__ul li {
+    flex-direction: row; }
+
+  .artists__ul li h2 a {
+    text-align: left; }
+
+  .artists__ul li img {
+    width: 30%; }
+
+  .artists__ul li div {
+    width: 70%;
+    padding: 1em;
+    justify-content: flex-end; }
+
+  .artists__ul li div button {
+    width: 220px; } }
 /* ======= Style Components ======= */
 /* colors */
 /* Fonts */
@@ -698,7 +738,6 @@ body, html {
 
 .article--artists h1 {
   color: black;
-  font-size: 2em;
   text-align: center;
   margin-top: 25%; }
 
@@ -710,10 +749,6 @@ body, html {
   .article--artists h1 {
     margin-top: 20%; } }
 @media screen and (min-width: 568px) {
-  .artists__ul li img {
-    width: 30%;
-    height: 30%; }
-
   .artists__ul li p {
     width: calc(70% - 30px);
     margin: 15px 15px; } }
@@ -727,14 +762,14 @@ body, html {
 @media screen and (min-width: 1024px) {
   .main--artists {
     display: grid;
-    grid-template-columns: 15% 70% 15%; }
+    grid-template-columns: 20% 60% 20%; }
 
   .article--artists h1 {
     margin-top: 10%; } }
 @media screen and (min-width: 1324px) {
   .main--artists {
     display: grid;
-    grid-template-columns: 20% 60% 20%; }
+    grid-template-columns: 25% 50% 25%; }
 
   .article--artists h1 {
     margin-top: 5%; } }

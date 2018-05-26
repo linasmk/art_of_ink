@@ -10,44 +10,54 @@
 
 	li {
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		flex-wrap: wrap;
 		padding: 20px 0;
-
-		a {
-			display: block;
+		
+		h2 {
 			width: 100%;
-			text-decoration: none;
-			color: $black;
-			font-weight: 800;
-			font-size: 1.75em;
+			font-size: 1em;
+			text-align: left;
+			align-self: flex-start;
+			a {
+				display: block;
+				text-decoration: none;
+				color: $black;
+				font-weight: 800;
+				font-size: 1.2em;
+				}
 		}
-		img {
-			width: 50%;
-			height: 50%;
-			margin: 15px 0;
-			border-radius: 50%;
+		/* Responsive Circle */
+		.responsive-circle1 {
+    				font-size: 80px;
+    				width: 80%;
 		}
+		.responsive-circle1::after {
+				   @include responsiveCircleAfter;
+					}
+		.bgimg1:after {
+			@include backgroundIMG(url(../img/jwilly.jpg), 100%, center);
+		}
+		/* End of Responsive Circle */
 		div {
 			display: flex;
 			flex-direction: column;
-			width: 50%;
+			width: 100%;
 			box-sizing: border-box;
-			padding: 1em;
+			padding: 0;
 
 			p {
 				width: 100%;
-				align-self: center;
-				text-align: left;
-				font-size: 1.25em;
+				font-size: 1em;
 				color: $darkgrey;
 				margin: 15px 0;
+				text-align: left;
 			}
 			button {
 				background-color: $black;
 				color: $white;
 				text-align: center;
-				width: 100%;
+				width: 75%;
 				padding: 0.75em 1em;
 				border: none;
 				outline: none;
@@ -110,13 +120,43 @@
 				color: $white;
 				text-align: center;
 				font-size: 1em;
+				text-decoration: none;
 				}
 		}
 	}
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
+.artists__ul li h2 {
+	align-self: center;
+}
 .artists__ul li div button {
 width: 50%;
+}
+.artists__ul li img {
+	width: 70%;
+	align-self: flex-start;
+}
+}
+@media screen and (min-width: 768px) {
+.artists__ul li {
+flex-direction: row;
+
+}
+.artists__ul li h2 a {
+	text-align: left;
+}
+.artists__ul li img {
+width: 30%;
+}
+
+.artists__ul li div {
+	width: 70%;
+	padding: 1em;
+	justify-content: flex-end;
+}
+
+.artists__ul li div button {
+width: 220px;
 }
 }

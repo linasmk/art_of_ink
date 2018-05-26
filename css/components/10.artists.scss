@@ -11,7 +11,6 @@
 
 .article--artists h1 {
 	color: $black;
-	font-size: 2em;
 	text-align: center;
 	margin-top: 25%;
 }
@@ -25,10 +24,7 @@ margin-top: 20%;
 }
 }
 @media screen and (min-width: 568px) {
-.artists__ul li img {
-	width: 30%;
-	height: 30%;
-}
+
 .artists__ul li p {
 	width: calc(70% - 30px);
 	margin: 15px 15px;
@@ -44,7 +40,7 @@ margin-top: 15%;
 }
 @media screen and (min-width: 1024px) {
 .main--artists {
-@include grid(15% 70% 15%);
+@include grid(20% 60% 20%);
 }
 .article--artists h1 {
 margin-top: 10%;
@@ -52,7 +48,7 @@ margin-top: 10%;
 }
 @media screen and (min-width: 1324px) {
 .main--artists {
-@include grid(20% 60% 20%);
+@include grid(25% 50% 25%);
 }
 .article--artists h1 {
 margin-top: 5%;

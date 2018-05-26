@@ -15,3 +15,11 @@
 	padding: 0;
 }
 
+@mixin responsiveCircleAfter {
+	border-radius: 50%;
+	content: "";
+	display: block;
+	height: 0;
+	padding-bottom: 100%;
+	width: 100%;
+}

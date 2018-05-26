@@ -10,7 +10,6 @@
 
 .article--artists h1 {
   color: black;
-  font-size: 2em;
   text-align: center;
   margin-top: 25%; }
 
@@ -22,10 +21,6 @@
   .article--artists h1 {
     margin-top: 20%; } }
 @media screen and (min-width: 568px) {
-  .artists__ul li img {
-    width: 30%;
-    height: 30%; }
-
   .artists__ul li p {
     width: calc(70% - 30px);
     margin: 15px 15px; } }
@@ -39,14 +34,14 @@
 @media screen and (min-width: 1024px) {
   .main--artists {
     display: grid;
-    grid-template-columns: 15% 70% 15%; }
+    grid-template-columns: 20% 60% 20%; }
 
   .article--artists h1 {
     margin-top: 10%; } }
 @media screen and (min-width: 1324px) {
   .main--artists {
     display: grid;
-    grid-template-columns: 20% 60% 20%; }
+    grid-template-columns: 25% 50% 25%; }
 
   .article--artists h1 {
     margin-top: 5%; } }
