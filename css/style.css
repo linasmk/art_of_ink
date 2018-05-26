@@ -726,6 +726,14 @@ body, html {
 
   .googleMaps {
     height: 55vh; } }
+.aboutimage {
+  width: 100%;
+  padding: 5% 0; }
+
+@media only screen and (min-width: 968px) {
+  .aboutimage {
+    width: 80%;
+    padding: 5% 10%; } }
 /* colors */
 /* Fonts */
 .main--artists {
