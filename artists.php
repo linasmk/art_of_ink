@@ -12,23 +12,24 @@
 					<h2><a href="https://www.instagram.com/jonaswilly/">Jonas Willy Brund-Andersen</a></h2>
 					<div class="responsive-circle1 bgimg1"></div>
 					<div class="list-wrapper">
-					<p>Tattoo artist. Art Of Ink - Aarhus/Denmark Husband and father. Train insane. I tattoo in every style. -No challenge too big, no tattoo too small.</p>
-					<button><span><a href="jwilly.php">See my profile</a></span></button>
+					<p>Jonas started his career back in 2009 when HP took him in as an apprentice in his studio in Odense.</p>
+					<a href="jwilly.php"><button><span>See my profile</span></button></a>
 					</div>
 				</li>
 				<li>
 					<h2><a href="https://www.instagram.com/simonbrandt8k/">Simon Brandt</a></h2>
-					<img src="img/sbrandt.jpg" alt="Simon Brandt">
+					<div class="responsive-circle2 bgimg2"></div>
 					<div class="list-wrapper">
-						<p>Proin tellus magna, ornare nec mauris sit amet, interdum lobortis ipsum. Integer mi nibh, iaculis sit amet laoreet ac, tincidunt ac leo. Nunc id neque non urna viverra convallis eget ac mi.</p>
-						<button><span>See my profile</span></button>
+						<p>Simon started his career in Aarhus, shortly after the new shop opened in the city. 
+						He was taught up by HP, but spent a lot of his day to day life in company with Jonas, while also being a part of the graffiti environment, which can be seen in a lot of his earlier work.</p>
+						<a href="jwilly.php"><button><span>See my profile</span></button></a>
 				</li>
 				<li>
 					<h2><a href="https://www.instagram.com/kamilla.ri/">Kamilla Rieder</a></h2>
-					<img src="img/krieder.jpg" alt="Kamilla Rieder">
+					<div class="responsive-circle3 bgimg3"></div>
 					<div class="list-wrapper">
-						<p>Donec ut ultricies erat, et efficitur mi. Vivamus pretium dolor dignissim, viverra orci in, porttitor urna. Praesent ullamcorper scelerisque leo ac mollis.</p>
-						<button><span>See my profile</span></button>
+						<p>Kamilla is the youngest member of the group and is currently the only woman in the shop.</p>
+						<a href="jwilly.php"><button><span>See my profile</span></button></a>
 				    </div>
 				</li>
 			</ul>

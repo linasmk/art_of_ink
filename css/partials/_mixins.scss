@@ -23,3 +23,64 @@
 	padding-bottom: 100%;
 	width: 100%;
 }
+
+
+/* BUTTON STYLE PACKAGE */
+@mixin buttonStyle {
+	background-color: $black;
+	color: $white;
+	text-align: center;
+	width: 100%;
+	padding: 0.75em 1em;
+	border: none;
+	outline: none;
+	position: relative;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+}
+@mixin buttonSpan {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	color: $white;
+	text-align: center;
+	text-decoration: none;
+}
+@mixin buttonSpnaAfter {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+@mixin buttonAfter {
+	content: "";
+	background: $white;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px;
+	margin-top: -120%;
+	outline: none;
+	opacity: 0;
+	transition: all 1s
+}
+@mixin buttonActive {
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+@mixin buttonActiveAfter {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+}
+
+/* END OF BUTTON STYLE PACKAGE */

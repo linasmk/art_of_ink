@@ -2,6 +2,7 @@
 @import "partials/variables";
 @import "partials/normalize";
 @import "partials/nesting";
+@import "partials/mixins";
 
 /* ======= Style Components ======= */
 @import "components/1.header";
@@ -9,6 +10,7 @@
 @import "components/3.footer";
 @import "components/about";
 @import "components/10.artists";
+@import "components/11.jwilly";
 @import "components/instagram";
 
 html, body {

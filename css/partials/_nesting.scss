@@ -17,6 +17,7 @@
 		h2 {
 			width: 100%;
 			font-size: 1em;
+			margin: 1em auto;
 			text-align: left;
 			align-self: flex-start;
 			a {
@@ -29,15 +30,39 @@
 		}
 		/* Responsive Circle */
 		.responsive-circle1 {
-    				font-size: 80px;
-    				width: 80%;
+    		font-size: 80px;
+    		width: 80%;
 		}
 		.responsive-circle1::after {
-				   @include responsiveCircleAfter;
+			@include responsiveCircleAfter;
 					}
 		.bgimg1:after {
 			@include backgroundIMG(url(../img/jwilly.jpg), 100%, center);
 		}
+
+		.responsive-circle2 {
+    		font-size: 80px;
+    		width: 80%;
+		}
+		.responsive-circle2::after {
+			@include responsiveCircleAfter;
+					}
+		.bgimg2:after {
+			@include backgroundIMG(url(../img/sbrandt.jpg), 100%, center);
+		}
+
+		.responsive-circle3 {
+    		font-size: 80px;
+    		width: 80%;
+		}
+		.responsive-circle3::after {
+			@include responsiveCircleAfter;
+					}
+		.bgimg3:after {
+			@include backgroundIMG(url(../img/krieder.jpg), 100%, center);
+		}
+		
+
 		/* End of Responsive Circle */
 		div {
 			display: flex;
@@ -53,75 +78,42 @@
 				margin: 15px 0;
 				text-align: left;
 			}
-			button {
-				background-color: $black;
-				color: $white;
-				text-align: center;
-				width: 75%;
-				padding: 0.75em 1em;
-				border: none;
-				outline: none;
-				position: relative;
-				-webkit-transition-duration: 0.4s; /* Safari */
-	     		transition-duration: 0.4s;
-	     		text-decoration: none;
-	    		overflow: hidden;
-	    		cursor: pointer;
+			/* Button Style */
+			a {
+				display: block;
+				width: 180px;
+				font-size: 0.8em;
 			}
-			button span {
-	  		cursor: pointer;
-	  		display: inline-block;
-	  		position: relative;
-	  		transition: 0.5s;
+
+			a button {
+				@include buttonStyle;
 			}
-			button:hover span {
-	  		padding-right: 25px;
+			a button span {
+	  			@include buttonSpan;
 			}
-			button:hover span:after {
-	  		opacity: 1;
-	  		right: 0;
+			a button:hover span {
+	  			padding-right: 25px;
 			}
-			button span:after {
-	  		content: '\00bb';
-	  		position: absolute;
-	  		opacity: 0;
-	  		top: 0;
-	  		right: -20px;
-	  		transition: 0.5s;
+			a button:hover span:after {
+	  			opacity: 1;
+	  			right: 0;
 			}
-			button:hover {
+			a button span:after {
+	  			@include buttonSpnaAfter;
+			}
+			a button:hover {
 				background-color: rgba(0, 0, 0, 0.9);
 			}
-			button:after {
-	    		content: "";
-	    		background: $white;
-	    		display: block;
-	    		position: absolute;
-	    		padding-top: 300%;
-	    		padding-left: 350%;
-	    		margin-left: -20px!important;
-	    		margin-top: -120%;
-	    		outline: none;
-	    		opacity: 0;
-	    		transition: all 1s
+			a button:after {
+	    		@include buttonAfter;
 	    	}
-	    	button:active {
-	  		background-color: rgba(0, 0, 0, 0.5);
-	  		box-shadow: 0 5px #666;
-	  		transform: translateY(4px);
+	    	a button:active {
+	  			@include buttonActive;
 			}
-	    	button:active:after {
-	    	padding: 0;
-	    	margin: 0;
-	    	opacity: 1;
-	    	transition: 0s
+	    	a button:active:after {
+	    		@include buttonActiveAfter;
 			}
-			button span a {
-				color: $white;
-				text-align: center;
-				font-size: 1em;
-				text-decoration: none;
-				}
+			/* End of Button Style */
 		}
 	}
 }
@@ -131,10 +123,18 @@
 	align-self: center;
 }
 .artists__ul li div button {
-width: 50%;
+	@include buttonStyle;
 }
-.artists__ul li img {
-	width: 70%;
+.artists__ul li .responsive-circle1 {
+	width: 60%;
+	align-self: flex-start;
+}
+.artists__ul li .responsive-circle2 {
+	width: 60%;
+	align-self: flex-start;
+}
+.artists__ul li .responsive-circle3 {
+	width: 60%;
 	align-self: flex-start;
 }
 }
@@ -143,20 +143,28 @@ width: 50%;
 flex-direction: row;
 
 }
-.artists__ul li h2 a {
-	text-align: left;
+
+.artists__ul li .responsive-circle1 {
+width: 50%;
 }
-.artists__ul li img {
-width: 30%;
+
+.artists__ul li .responsive-circle2 {
+	width: 50%;
+	align-self: flex-start;
+}
+
+.artists__ul li .responsive-circle3 {
+	width: 50%;
+	align-self: flex-start;
 }
 
 .artists__ul li div {
-	width: 70%;
+	width: 50%;
 	padding: 1em;
-	justify-content: flex-end;
+	justify-content: center;
 }
 
 .artists__ul li div button {
-width: 220px;
+@include buttonStyle;
 }
 }
