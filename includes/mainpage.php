@@ -1,16 +1,16 @@
-<div class="parallax" id="parallax">
-		<h1 id="mainHeadline"></h1>
-</div>
+<h1 id="mainHeadline" class="main__headline"></h1>
 
-<section class="about">
+<img id="scrollDown" class="scrollDown d-none" src="./img/mouse-icon.svg" alt="mouse-icon">
 
-	<h1 class="about-headline">Who are we</h1>
-	<p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Lorem Ipsum has been the industry's standard.</p>
+<section class="about main__about" id="whoAreWe">
+
+	<h1 class="main__about-headline">Who we are</h1>
+	<p>Art of Ink is a group of people with a burning passion towards tattoos. We truly love what we are doing and enjoy the process. Satisfied clients is our drive.</p>
+	<a class="call-to-action" href="about.php">Want to know more?</a>
 
 </section>
-
-<section class="works">
-		<h1>Our works</h1>
+<section class="main__works">
+		<h1 class="main__works-headline">Our works</h1>
 <div class="insta">
 	<div class='instagrid section' id='Instagram'>
 		<div class='instagrid.css' data-version='1' id='instagridz'>

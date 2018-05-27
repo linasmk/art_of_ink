@@ -15,7 +15,7 @@
 
 .phoneLink {
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .phoneIcon {
   vertical-align: middle; }
@@ -52,8 +52,8 @@
   height: 50vh; }
 
 .copyright {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   flex-shrink: 0;
   text-align: center;
   padding: .5% 0; }
@@ -63,9 +63,9 @@
     padding: 1.5% 0; }
 
   .footer__p {
-    margin: 0; }
+    padding: .25% 0; }
 
   .googleMaps {
-    height: 55vh; } }
+    height: 70vh; } }
 
 /*# sourceMappingURL=3.footer.css.map */

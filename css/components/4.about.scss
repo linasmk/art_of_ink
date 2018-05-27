@@ -1,0 +1,57 @@
+.aboutUs__about {
+    height: 45vh;
+}
+
+.intro {
+	background: url("../img/artofink-blur.jpg");
+}
+
+.intro-text {
+	background: $black;
+	padding: 2.5% 5%;
+}
+
+.aboutUs__about-headline {
+	padding: 5% 0;
+}
+
+.white {
+	background: $white;
+	color: $black;
+}
+
+.black {
+	background: $black;
+	color: $white;
+}
+
+.aboutUs__pic {
+ 	width: 100%;
+ 	overflow: hidden;
+}
+
+.hp-pic2 {
+	display: none;
+}
+
+.tattooCount {
+	height: 50vh;
+}
+
+.aboutHP {
+	height: 50vh;
+}
+
+#tattoosMade {
+ 	font-weight: bold;
+}
+
+@media screen and (min-width: 968px) {
+	.hp-pic {
+		width: 50%;
+		float: left;
+	}
+	.hp-pic2 {
+		display: block;
+	}
+}

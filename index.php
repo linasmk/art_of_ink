@@ -2,6 +2,12 @@
 
 <?php require "includes/loader.php" ?>
 
+<div class="videoWrap">
+	<video autoplay loop muted class="video" poster="img/bg.jpg">
+			<source src="video/aoi_bg_vid.mp4" type="video/mp4">
+	</video>
+</div>
+
 <div id="wrapper" class="wrapper d-none">
 
 <?php require "includes/header.php" ?>
@@ -12,6 +18,7 @@
 
 </div>
 
+<script src="js/smoothScroll.js"></script>
 <script src="js/loader.js"></script>
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>
