@@ -546,6 +546,10 @@ template {
   font-size: 80px;
   width: 80%; }
 
+.responsive-circle1:not(:hover) {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
 .responsive-circle1::after {
   border-radius: 50%;
   content: "";

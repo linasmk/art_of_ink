@@ -11,6 +11,8 @@
 @import "components/4.about";
 @import "components/10.artists";
 @import "components/11.jwilly";
+@import "components/12.sbrandt";
+@import "components/13.krieder";
 @import "components/instagram";
 
 html, body {
@@ -28,7 +30,6 @@ body {
 
 .wrapper {
 	flex: 1 0 auto;
-	margin-top: 100vh;
 }
 
 .artistsWrapper {

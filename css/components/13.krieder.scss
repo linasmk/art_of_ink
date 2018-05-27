@@ -1,0 +1,17 @@
+/* Responsive Circle */
+		.responsive-circle3 {
+    		align-self: flex-start;
+    		font-size: 80px;
+    		width: 80%;
+		}
+		.responsive-circle3:not(:hover) {
+    		-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
+		.responsive-circle3::after {
+			@include responsiveCircleAfter;
+					}
+		.bgimg3:after {
+			@include backgroundIMG(url(../img/krieder.jpg), 100%, center);
+		}
+/* End of Responsive Circle */
