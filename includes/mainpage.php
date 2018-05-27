@@ -1,6 +1,4 @@
-<div class="parallax" id="parallax">
-		<h1 id="mainHeadline" class="main__headline"></h1>
-</div>
+<h1 id="mainHeadline" class="main__headline"></h1>
 
 <section class="about main__about">
 
@@ -9,7 +7,6 @@
 	<a class="call-to-action" href="about.php">Want to know more?</a>
 
 </section>
-
 <section class="main__works">
 		<h1 class="main__works-headline">Our works</h1>
 <div class="insta">

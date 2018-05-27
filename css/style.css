@@ -647,19 +647,17 @@ template {
     width: 50%; } }
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
-.parallax {
-  /* The image used */
-  background-image: url(../img/artofink-blur.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* Full height */
+.videoWrap {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 100vh;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  text-align: center;
-  display: table;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
+
+.video {
+  min-width: 100%;
+  min-height: 100%; }
 
 .about {
   width: 90%;
@@ -677,11 +675,16 @@ template {
   padding-top: 0; }
 
 .main__headline {
-  display: table-cell;
-  vertical-align: middle;
   font-size: 7em;
   font-family: Stingray, sans-serif;
-  text-shadow: 1px 3px white; }
+  text-shadow: 2px 5px black;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999; }
 
 .call-to-action {
   text-decoration: none;
@@ -1547,7 +1550,8 @@ body {
   overflow-x: hidden; }
 
 .wrapper {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+  margin-top: 100vh; }
 
 .d-none {
   display: none; }

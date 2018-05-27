@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$black".
-        on line 21 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss
+        on line 23 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss
 
-16:     width: 90%;
-17:     padding: 0 5%;
-18:     display: flex;
-19:     flex-direction: column;
-20:     justify-content: center;
-21:     background-color: $black;
-22:     color: $white;
-23: }
-24: 
-25: .main__about {
-26:     height: 70vh;
+18:     width: 90%;
+19:     padding: 0 5%;
+20:     display: flex;
+21:     flex-direction: column;
+22:     justify-content: center;
+23:     background-color: $black;
+24:     color: $white;
+25: }
+26: 
+27: .main__about {
+28:     height: 70vh;
 
 Backtrace:
-C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:21
+C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:23
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 21 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss\A \A 16:     width: 90%;\A 17:     padding: 0 5%;\A 18:     display: flex;\A 19:     flex-direction: column;\A 20:     justify-content: center;\A 21:     background-color: $black;\A 22:     color: $white;\A 23: }\A 24: \A 25: .main__about {\A 26:     height: 70vh;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 23 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss\A \A 18:     width: 90%;\A 19:     padding: 0 5%;\A 20:     display: flex;\A 21:     flex-direction: column;\A 22:     justify-content: center;\A 23:     background-color: $black;\A 24:     color: $white;\A 25: }\A 26: \A 27: .main__about {\A 28:     height: 70vh;"; }
