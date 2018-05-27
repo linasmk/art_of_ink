@@ -25,12 +25,12 @@
 	<ul class="footer__socialmedia">
 		<li class="footer__socialmedia__li socialmedia__li">
 			<a href="https://www.facebook.com/aoiaarhus/" target="_blank" class="socialmedia__a">
-				<img src="./img/facebook_icon-black.svg" alt="facebook icon">
+				<img src="./img/facebook_icon.svg" alt="facebook icon">
 			</a>
 		</li>
 		<li class="footer__socialmedia__li socialmedia__li">
 			<a href="https://www.instagram.com/artofink_dk/" target="_blank" class="socialmedia__a">
-				<img src="./img/instagram_icon-black.svg" alt="instagram icon">
+				<img src="./img/instagram_icon.svg" alt="instagram icon">
 			</a>
 		</li>
 	</ul>

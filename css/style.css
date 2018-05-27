@@ -666,10 +666,10 @@ body, html {
 
 .about {
   height: 70vh;
-  background-color: white;
+  background-color: black;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -691,10 +691,10 @@ body, html {
   text-shadow: 1px 3px white; }
 
 .works {
-  background: black; }
+  background: white; }
 
 .works h1 {
-  color: white;
+  color: black;
   padding: 10% 0; }
 
 @media only screen and (min-width: 968px) {
@@ -747,14 +747,14 @@ body, html {
 
 .footer__h {
   margin: 0;
-  padding: 5% 0; }
+  padding: 1.5% 0; }
 
 .footer__p {
-  padding: 2.5% 0; }
+  padding: 1.5% 0; }
 
 .phoneLink {
   text-decoration: none;
-  color: black; }
+  color: white; }
 
 .phoneIcon {
   vertical-align: middle; }
