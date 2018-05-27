@@ -33,7 +33,7 @@
 }
 
 .main__headline {
-   font-size: 7em;
+   font-size: 3em;
    font-family: $frontFont, sans-serif;
    text-shadow: 2px 5px $black;
    color: $white;
@@ -43,6 +43,27 @@
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 9999;
+   width: 90%;
+}
+
+.scrollDown {
+  animation: MoveUpDown 1s ease infinite;
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    top: 85%;
+  }
+  50% {
+    top: 87%;
+  }
 }
 
 .call-to-action {
@@ -63,6 +84,9 @@
 }
 
 @media only screen and (min-width: 968px) {
+  .main__headline {
+      font-size: 7em;
+  }
 	.main__works-headline {
     	padding: 2.5% 0;
 	}

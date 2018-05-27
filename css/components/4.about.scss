@@ -1,5 +1,14 @@
 .aboutUs__about {
-    height: 40vh;
+    height: 45vh;
+}
+
+.intro {
+	background: url("../img/artofink-blur.jpg");
+}
+
+.intro-text {
+	background: $black;
+	padding: 2.5% 5%;
 }
 
 .aboutUs__about-headline {

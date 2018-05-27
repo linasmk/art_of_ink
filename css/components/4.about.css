@@ -1,18 +1,18 @@
 /*
-Error: Undefined variable: "$white".
+Error: Undefined variable: "$black".
         on line 10 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss
 
-5: .aboutUs__about-headline {
-6: 	padding: 5% 0;
+5: .intro {
+6: 	background: url("../img/artofink-blur.jpg");
 7: }
 8: 
-9: .white {
-10: 	background: $white;
-11: 	color: $black;
+9: .intro-text {
+10: 	background: $black;
+11: 	padding: 2.5% 5%;
 12: }
 13: 
-14: .black {
-15: 	background: $black;
+14: .aboutUs__about-headline {
+15: 	padding: 5% 0;
 
 Backtrace:
 C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss:10
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 10 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss\A \A 5: .aboutUs__about-headline {\A 6: 	padding: 5% 0;\A 7: }\A 8: \A 9: .white {\A 10: 	background: $white;\A 11: 	color: $black;\A 12: }\A 13: \A 14: .black {\A 15: 	background: $black;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 10 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss\A \A 5: .intro {\A 6: 	background: url(\"../img/artofink-blur.jpg\");\A 7: }\A 8: \A 9: .intro-text {\A 10: 	background: $black;\A 11: 	padding: 2.5% 5%;\A 12: }\A 13: \A 14: .aboutUs__about-headline {\A 15: 	padding: 5% 0;"; }
