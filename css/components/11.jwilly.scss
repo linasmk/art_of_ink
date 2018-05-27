@@ -3,8 +3,25 @@
 @import "../partials/nesting";
 @import "../partials/mixins";
 
+.profile {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.profile h2 {
+	width: 100%;
+	margin: 2.5em auto 1.5em auto;
+}
+.profile p {
+	margin: 1em 0;
+	text-align: left;
+	font-size: 1.5em;
+	color: $darkgrey;
+}
+
 /* Responsive Circle */
 		.responsive-circle1 {
+    		align-self: flex-start;
     		font-size: 80px;
     		width: 80%;
 		}
@@ -15,3 +32,22 @@
 			@include backgroundIMG(url(../img/jwilly.jpg), 100%, center);
 		}
 /* End of Responsive Circle */
+
+.instabox {
+	grid-area: 1/2;
+	position: relative;
+	grid-row-start: 2;
+}
+
+@media screen and (min-width: 480px) {
+.profile {
+justify-content: left;
+}
+.responsive-circle1 {
+	width: 60%;
+	
+}
+.profile p {
+	
+}
+} 

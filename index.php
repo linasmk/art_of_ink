@@ -7,7 +7,7 @@
 <?php require "includes/header.php" ?>
 
 <?php include "includes/mainpage.php" ?>
-
+<div class="clearfix"></div>
 <?php include "includes/footer.php" ?>
 
 </div>

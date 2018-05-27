@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<style type='text/css'>
-</style>
-</head>
-<body>
-
 <div class="parallax" id="parallax">
 		<h1 id="mainHeadline"></h1>
 </div>
