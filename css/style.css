@@ -647,12 +647,9 @@ template {
     width: 50%; } }
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
-body, html {
-  height: 100%; }
-
 .parallax {
   /* The image used */
-  background-image: url(../img/artofink.jpg);
+  background-image: url(../img/artofink-blur.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -665,45 +662,48 @@ body, html {
   width: 100%; }
 
 .about {
-  height: 70vh;
-  background-color: black;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 90%;
   padding: 0 5%; }
 
-.about-headline {
+.main__about {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  color: white; }
+
+.main__about-headline {
   padding-top: 0; }
 
-.about-headline-image {
-  display: flex;
-  justify-content: center; }
-
-.parallax h1 {
+.main__headline {
   display: table-cell;
   vertical-align: middle;
   font-size: 7em;
   font-family: Stingray, sans-serif;
   text-shadow: 1px 3px white; }
 
-.works {
+.moreLink {
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 1% 2.5%;
+  margin: 5% auto; }
+
+.main__works {
   background: white; }
 
-.works h1 {
+.main__works-headline {
   color: black;
   padding: 10% 0; }
 
 @media only screen and (min-width: 968px) {
-  .works h1 {
+  .main__works-headline {
     padding: 2.5% 0; }
 
-  .about p {
-    width: 70%;
-    padding: 0 15%; } }
+  .about {
+    width: 50%;
+    padding: 0 25%; } }
 /* Animations */
 .fade-in {
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
@@ -805,15 +805,27 @@ body, html {
     margin: 0; }
 
   .googleMaps {
-    height: 55vh; } }
-.aboutimage {
-  width: 100%;
-  padding: 5% 0; }
+    height: 70vh; } }
+.aboutUs__about {
+  background-color: white;
+  color: black; }
+  .aboutUs__about #cities {
+    height: 40vh;
+    background: url("../img/artofink-mobile.jpg") no-repeat center center fixed;
+    background-size: cover; }
+  .aboutUs__about #tattoosMade {
+    font-weight: bold; }
 
-@media only screen and (min-width: 968px) {
-  .aboutimage {
-    width: 80%;
-    padding: 5% 10%; } }
+.about__p {
+  background: black;
+  color: white; }
+
+.about__p:nth-child(odd) {
+  text-align: right; }
+
+.about__p:nth-child(even) {
+  text-align: left; }
+
 /* colors */
 /* Fonts */
 /* BUTTON STYLE PACKAGE */

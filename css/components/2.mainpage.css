@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$black".
-        on line 20 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss
+        on line 25 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss
 
-15:     display:table;
-16:     width:100%;
-17: }
-18: .about {
-19:     height:70vh;
-20:     background-color: $black; 
-21:     /* Create the parallax scrolling effect *\/
-22:     background-attachment: fixed;
-23:     color: $white;
-24:     display: flex;
-25:     flex-direction: column;
+20: .main__about {
+21:     height: 70vh;
+22:     display: flex;
+23:     flex-direction: column;
+24:     justify-content: center;
+25:     background-color: $black;
+26:     color: $white;
+27: }
+28: 
+29: .main__about-headline {
+30: 	padding-top: 0;
 
 Backtrace:
-C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:20
+C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:25
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 20 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss\A \A 15:     display:table;\A 16:     width:100%;\A 17: }\A 18: .about {\A 19:     height:70vh;\A 20:     background-color: $black; \A 21:     /* Create the parallax scrolling effect */\A 22:     background-attachment: fixed;\A 23:     color: $white;\A 24:     display: flex;\A 25:     flex-direction: column;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 25 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss\A \A 20: .main__about {\A 21:     height: 70vh;\A 22:     display: flex;\A 23:     flex-direction: column;\A 24:     justify-content: center;\A 25:     background-color: $black;\A 26:     color: $white;\A 27: }\A 28: \A 29: .main__about-headline {\A 30: 	padding-top: 0;"; }

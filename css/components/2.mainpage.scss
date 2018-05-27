@@ -1,12 +1,8 @@
 @import "../partials/mixins";
 
-body, html {
-    height: 100%;
-}
-
 .parallax {
     /* The image used */
-    @include backgroundIMG(url(../img/artofink.jpg), cover, center);
+    @include backgroundIMG(url(../img/artofink-blur.jpg), cover, center);
     /* Full height */
     height: 100vh; 
     /* Create the parallax scrolling effect */
@@ -15,29 +11,26 @@ body, html {
     display:table;
     width:100%;
 }
+
 .about {
-    height:70vh;
-    background-color: $black; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    color: $white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 90%;
     padding: 0 5%;
 }
 
-.about-headline {
+.main__about {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $black;
+    color: $white;
+}
+
+.main__about-headline {
 	padding-top: 0;
 }
 
-.about-headline-image{
-    display:flex;
-    justify-content:center;
-
-}
-.parallax h1 {
+.main__headline {
    display:table-cell;
    vertical-align:middle;
    font-size: 7em;
@@ -45,22 +38,30 @@ body, html {
    text-shadow: 1px 3px $white;
 }
 
-.works {
+.moreLink {
+  text-decoration: none;
+  background: $white;
+  color: $black;
+  padding: 1% 2.5%;
+  margin: 5% auto;
+}
+
+.main__works {
 	background: $white;
 }
 
-.works h1 {
+.main__works-headline {
 	color: $black;
 	padding: 10% 0;
 }
 
 @media only screen and (min-width: 968px) {
-	.works h1 {
+	.main__works-headline {
     	padding: 2.5% 0;
 	}
-	.about p {
-    	width: 70%;
-    	padding: 0 15%;
+	.about {
+    	width: 50%;
+    	padding: 0 25%;
 	}
 }
 

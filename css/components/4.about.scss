@@ -1,0 +1,29 @@
+.aboutUs__about {
+    background-color: $white;
+    color: $black;
+
+    .about__p {
+    	background: $black;
+    	color: $white;
+    }
+
+    .about__p:nth-child(odd) {
+    	text-align: right;
+    	padding-left: 30%;
+    }
+
+    .about__p:nth-child(even) {
+    	text-align: left;
+    	padding-right: 30%;
+    }
+
+    #cities {
+    	height: 40vh;
+    	background: url("../img/artofink-mobile.jpg") no-repeat center center fixed;
+    	background-size: cover;
+    }
+
+    #tattoosMade {
+    	font-weight: bold;
+    }
+}

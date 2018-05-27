@@ -8,7 +8,7 @@
 @import "components/1.header";
 @import "components/2.mainpage";
 @import "components/3.footer";
-@import "components/about";
+@import "components/4.about";
 @import "components/10.artists";
 @import "components/11.jwilly";
 @import "components/instagram";
@@ -26,7 +26,7 @@ body {
 }
 
 .wrapper {
-	 flex: 1 0 auto;
+	flex: 1 0 auto;
 }
 
 .d-none {

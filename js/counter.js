@@ -9,12 +9,9 @@ function counter(id, start, end, duration) {
         obj.innerHTML = current;
         if (current == end) {
             clearInterval(timer);
+            document.getElementById("tattoosMade").innerHTML = "***t load of";
         }
     }, stepTime);
 }
 
-counter("tattoosMade", 0, 5000, 2000);
-
-setInterval(function() {
-        document.getElementById("tattoosMade").innerHTML = "***t load of tattoos";
-    }, 2000);
+counter("tattoosMade", 0, 700, 2000);
