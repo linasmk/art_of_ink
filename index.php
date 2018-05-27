@@ -3,7 +3,7 @@
 <?php require "includes/loader.php" ?>
 
 <div class="videoWrap">
-	<video autoplay loop muted class="video">
+	<video autoplay loop muted class="video" poster="img/bg.jpg">
 			<source src="video/aoi_bg_vid.mp4" type="video/mp4">
 	</video>
 </div>
