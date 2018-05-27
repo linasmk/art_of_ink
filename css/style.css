@@ -708,7 +708,11 @@ template {
   background: white;
   color: black;
   padding: 12px 18px;
-  margin: 5% auto; }
+  margin: 5% auto;
+  transition: .5s; }
+
+.call-to-action:hover {
+  opacity: .25; }
 
 .main__works {
   background: white; }
