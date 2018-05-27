@@ -684,7 +684,7 @@ template {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999;
+  z-index: 9998;
   width: 90%; }
 
 .scrollDown {
@@ -695,7 +695,7 @@ template {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999; }
+  z-index: 9998; }
 
 @keyframes MoveUpDown {
   0%, 100% {

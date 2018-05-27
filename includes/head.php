@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="authors" content="linas Mackonis, Maciek Wozniak, Gabriel Florin-Pojum, Dāvis Ābols">
 
 	<title>Art of Ink</title>
 	<link rel="shortcut icon" href="./img/favicon.jpg" alt="logo" />

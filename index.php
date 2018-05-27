@@ -18,6 +18,7 @@
 
 </div>
 
+<script src="js/smoothScroll.js"></script>
 <script src="js/loader.js"></script>
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>

@@ -1,6 +1,6 @@
 <h1 id="mainHeadline" class="main__headline"></h1>
 
-<a href="#whoAreWe"><img class="scrollDown" src="./img/mouse-icon.svg" alt="mouse-icon"></a>
+<img id="scrollDown" class="scrollDown d-none" src="./img/mouse-icon.svg" alt="mouse-icon">
 
 <section class="about main__about" id="whoAreWe">
 
