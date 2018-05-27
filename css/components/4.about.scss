@@ -1,29 +1,48 @@
 .aboutUs__about {
-    background-color: $white;
-    color: $black;
+    height: 40vh;
+}
 
-    .about__p {
-    	background: $black;
-    	color: $white;
-    }
+.aboutUs__about-headline {
+	padding: 5% 0;
+}
 
-    .about__p:nth-child(odd) {
-    	text-align: right;
-    	padding-left: 30%;
-    }
+.white {
+	background: $white;
+	color: $black;
+}
 
-    .about__p:nth-child(even) {
-    	text-align: left;
-    	padding-right: 30%;
-    }
+.black {
+	background: $black;
+	color: $white;
+}
 
-    #cities {
-    	height: 40vh;
-    	background: url("../img/artofink-mobile.jpg") no-repeat center center fixed;
-    	background-size: cover;
-    }
+.aboutUs__pic {
+ 	width: 100%;
+ 	overflow: hidden;
+}
 
-    #tattoosMade {
-    	font-weight: bold;
-    }
+.hp-pic2 {
+	display: none;
+}
+
+.tattooCount {
+	height: 50vh;
+}
+
+.aboutHP {
+	height: 50vh;
+}
+
+#tattoosMade {
+ 	font-weight: bold;
+}
+
+@media screen and (min-width: 968px) {
+	.hp-pic {
+		width: 50%;
+		float: left;
+	}
+	.hp-pic2 {
+		display: block;
+	}
 }

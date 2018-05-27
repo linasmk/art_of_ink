@@ -1,17 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 2 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss
+        on line 10 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss
 
-1: .aboutUs__about {
-2:     background-color: $white;
-3:     color: $black;
-4: 
-5:     .about__p {
-6:     	background: $black;
-7:     	color: $white;
+5: .aboutUs__about-headline {
+6: 	padding: 5% 0;
+7: }
+8: 
+9: .white {
+10: 	background: $white;
+11: 	color: $black;
+12: }
+13: 
+14: .black {
+15: 	background: $black;
 
 Backtrace:
-C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss:2
+C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 2 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss\A \A 1: .aboutUs__about {\A 2:     background-color: $white;\A 3:     color: $black;\A 4: \A 5:     .about__p {\A 6:     	background: $black;\A 7:     	color: $white;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 10 of C:\Xampp\htdocs\art_of_ink\css\components\4.about.scss\A \A 5: .aboutUs__about-headline {\A 6: 	padding: 5% 0;\A 7: }\A 8: \A 9: .white {\A 10: 	background: $white;\A 11: 	color: $black;\A 12: }\A 13: \A 14: .black {\A 15: 	background: $black;"; }

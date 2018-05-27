@@ -15,15 +15,15 @@
 .about {
     width: 90%;
     padding: 0 5%;
-}
-
-.main__about {
-    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: $black;
     color: $white;
+}
+
+.main__about {
+    height: 70vh;
 }
 
 .main__about-headline {
@@ -38,11 +38,11 @@
    text-shadow: 1px 3px $white;
 }
 
-.moreLink {
+.call-to-action {
   text-decoration: none;
   background: $white;
   color: $black;
-  padding: 1% 2.5%;
+  padding: 12px 18px;
   margin: 5% auto;
 }
 

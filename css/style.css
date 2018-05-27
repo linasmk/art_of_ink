@@ -663,15 +663,15 @@ template {
 
 .about {
   width: 90%;
-  padding: 0 5%; }
-
-.main__about {
-  height: 70vh;
+  padding: 0 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: black;
   color: white; }
+
+.main__about {
+  height: 70vh; }
 
 .main__about-headline {
   padding-top: 0; }
@@ -683,11 +683,11 @@ template {
   font-family: Stingray, sans-serif;
   text-shadow: 1px 3px white; }
 
-.moreLink {
+.call-to-action {
   text-decoration: none;
   background: white;
   color: black;
-  padding: 1% 2.5%;
+  padding: 12px 18px;
   margin: 5% auto; }
 
 .main__works {
@@ -747,10 +747,10 @@ template {
 
 .footer__h {
   margin: 0;
-  padding: 1.5% 0; }
+  padding: 5% 0; }
 
 .footer__p {
-  padding: 1.5% 0; }
+  padding: 2.5% 0; }
 
 .phoneLink {
   text-decoration: none;
@@ -791,8 +791,8 @@ template {
   height: 50vh; }
 
 .copyright {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   flex-shrink: 0;
   text-align: center;
   padding: .5% 0; }
@@ -802,30 +802,47 @@ template {
     padding: 1.5% 0; }
 
   .footer__p {
-    margin: 0; }
+    padding: .25% 0; }
 
   .googleMaps {
     height: 70vh; } }
 .aboutUs__about {
-  background-color: white;
-  color: black; }
-  .aboutUs__about #cities {
-    height: 40vh;
-    background: url("../img/artofink-mobile.jpg") no-repeat center center fixed;
-    background-size: cover; }
-  .aboutUs__about #tattoosMade {
-    font-weight: bold; }
+  height: 40vh; }
 
-.about__p {
+.aboutUs__about-headline {
+  padding: 5% 0; }
+
+.white {
+  background: white;
+  color: black; }
+
+.black {
   background: black;
   color: white; }
 
-.about__p:nth-child(odd) {
-  text-align: right; }
+.aboutUs__pic {
+  width: 100%;
+  overflow: hidden; }
 
-.about__p:nth-child(even) {
-  text-align: left; }
+.hp-pic2 {
+  display: none; }
 
+.tattooCount {
+  height: 50vh; }
+
+.aboutHP {
+  height: 50vh; }
+
+#tattoosMade {
+  font-weight: bold; }
+
+@media screen and (min-width: 968px) {
+  .hp-pic {
+    width: 50%;
+    float: left; }
+
+  .hp-pic2 {
+    display: block; } }
 /* colors */
 /* Fonts */
 /* BUTTON STYLE PACKAGE */
@@ -1526,7 +1543,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  overflow-x: hidden; }
 
 .wrapper {
   flex: 1 0 auto; }
