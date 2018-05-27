@@ -19,19 +19,15 @@
 			font-size: 1em;
 			margin: 1em auto;
 			text-align: left;
-			align-self: flex-start;
-			a {
-				display: block;
-				text-decoration: none;
-				color: $black;
-				font-weight: 800;
-				font-size: 1.2em;
-				}
 		}
 		/* Responsive Circle */
 		.responsive-circle1 {
     		font-size: 80px;
-    		width: 80%;
+    		width: 280px;
+		}
+		.responsive-circle1:not(:hover) {
+    		-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
 		}
 		.responsive-circle1::after {
 			@include responsiveCircleAfter;
@@ -44,6 +40,10 @@
     		font-size: 80px;
     		width: 80%;
 		}
+		.responsive-circle2:not(:hover) {
+    		-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
 		.responsive-circle2::after {
 			@include responsiveCircleAfter;
 					}
@@ -55,14 +55,16 @@
     		font-size: 80px;
     		width: 80%;
 		}
+		.responsive-circle3:not(:hover) {
+    		-webkit-filter: grayscale(100%);
+    		filter: grayscale(100%);
+		}
 		.responsive-circle3::after {
 			@include responsiveCircleAfter;
 					}
 		.bgimg3:after {
 			@include backgroundIMG(url(../img/krieder.jpg), 100%, center);
 		}
-		
-
 		/* End of Responsive Circle */
 		div {
 			display: flex;

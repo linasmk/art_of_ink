@@ -1,65 +1,96 @@
-/*
-Error: Undefined variable: "$white".
-        on line 20 of C:\xampp\htdocs\2.PROJECTS\art_of_ink\css\components\2.mainpage.scss
+/* colors */
+/* Fonts */
+/* BUTTON STYLE PACKAGE */
+/* END OF BUTTON STYLE PACKAGE */
+body, html {
+  height: 100%; }
 
-15:     display:table;
-16:     width:100%;
-17: }
-18: .about {
-19:     height:70vh;
-20:     background-color: $white; 
-21:     /* Create the parallax scrolling effect *\/
-22:     background-attachment: fixed;
-23:     color: $black;
-24:     display: flex;
-25:     flex-direction: column;
+.parallax {
+  /* The image used */
+  background-image: url(../img/artofink.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Full height */
+  height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  text-align: center;
+  display: table;
+  width: 100%; }
 
-Backtrace:
-C:\xampp\htdocs\2.PROJECTS\art_of_ink\css\components\2.mainpage.scss:20
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 20 of C:\xampp\htdocs\2.PROJECTS\art_of_ink\css\components\2.mainpage.scss\A \A 15:     display:table;\A 16:     width:100%;\A 17: }\A 18: .about {\A 19:     height:70vh;\A 20:     background-color: $white; \A 21:     /* Create the parallax scrolling effect */\A 22:     background-attachment: fixed;\A 23:     color: $black;\A 24:     display: flex;\A 25:     flex-direction: column;"; }
+.about {
+  height: 70vh;
+  background-color: white;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding: 0 5%; }
+
+.about-headline {
+  padding-top: 0; }
+
+.about-headline-image {
+  display: flex;
+  justify-content: center; }
+
+.parallax h1 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 7em;
+  font-family: Stingray, sans-serif;
+  text-shadow: 1px 3px white; }
+
+.works {
+  background: black; }
+
+.works h1 {
+  color: white;
+  padding: 10% 0; }
+
+@media only screen and (min-width: 968px) {
+  .works h1 {
+    padding: 2.5% 0; }
+
+  .about p {
+    width: 70%;
+    padding: 0 15%; } }
+/* Animations */
+.fade-in {
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.typewriter:after {
+  content: '';
+  animation: write 2s linear;
+  animation-fill-mode: forwards; }
+
+@keyframes write {
+  0% {
+    content: ''; }
+  12.5% {
+    content: 'A'; }
+  25% {
+    content: 'Ar'; }
+  37.5% {
+    content: 'Art'; }
+  50% {
+    content: 'Art o'; }
+  62.5% {
+    content: 'Art of'; }
+  75% {
+    content: 'Art of i'; }
+  87.5% {
+    content: 'Art of in'; }
+  100% {
+    content: 'Art of ink'; } }
+
+/*# sourceMappingURL=2.mainpage.css.map */

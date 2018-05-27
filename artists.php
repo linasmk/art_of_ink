@@ -9,7 +9,7 @@
 			<h1>Meet Our Artists</h1>
 			<ul class="artists__ul">
 				<li>
-					<h2><a href="https://www.instagram.com/jonaswilly/">Jonas Willy Brund-Andersen</a></h2>
+					<h2>Jonas Willy Brund-Andersen</h2>
 					<div class="responsive-circle1 bgimg1"></div>
 					<div class="list-wrapper">
 					<p>Jonas started his career back in 2009 when HP took him in as an apprentice in his studio in Odense.</p>
@@ -17,7 +17,7 @@
 					</div>
 				</li>
 				<li>
-					<h2><a href="https://www.instagram.com/simonbrandt8k/">Simon Brandt</a></h2>
+					<h2>Simon Brandt</h2>
 					<div class="responsive-circle2 bgimg2"></div>
 					<div class="list-wrapper">
 						<p>Simon started his career in Aarhus, shortly after the new shop opened in the city. 
@@ -25,7 +25,7 @@
 						<a href="jwilly.php"><button><span>See my profile</span></button></a>
 				</li>
 				<li>
-					<h2><a href="https://www.instagram.com/kamilla.ri/">Kamilla Rieder</a></h2>
+					<h2>Kamilla Rieder</h2>
 					<div class="responsive-circle3 bgimg3"></div>
 					<div class="list-wrapper">
 						<p>Kamilla is the youngest member of the group and is currently the only woman in the shop.</p>

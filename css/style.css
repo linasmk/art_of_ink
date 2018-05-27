@@ -302,6 +302,8 @@ template {
 
 /* colors */
 /* Fonts */
+/* colors */
+/* Fonts */
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
 /* ======= Artists ul ======= */
@@ -322,17 +324,13 @@ template {
       width: 100%;
       font-size: 1em;
       margin: 1em auto;
-      text-align: left;
-      align-self: flex-start; }
-      .artists__ul li h2 a {
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-weight: 800;
-        font-size: 1.2em; }
+      text-align: left; }
     .artists__ul li .responsive-circle1 {
       font-size: 80px;
-      width: 80%; }
+      width: 280px; }
+    .artists__ul li .responsive-circle1:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle1::after {
       border-radius: 50%;
       content: "";
@@ -348,6 +346,9 @@ template {
     .artists__ul li .responsive-circle2 {
       font-size: 80px;
       width: 80%; }
+    .artists__ul li .responsive-circle2:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle2::after {
       border-radius: 50%;
       content: "";
@@ -363,6 +364,9 @@ template {
     .artists__ul li .responsive-circle3 {
       font-size: 80px;
       width: 80%; }
+    .artists__ul li .responsive-circle3:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle3::after {
       border-radius: 50%;
       content: "";
@@ -518,6 +522,8 @@ template {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer; } }
+/* colors */
+/* Fonts */
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
 /* ======= Style Components ======= */
@@ -645,6 +651,8 @@ template {
 
   .sidebar__img {
     width: 50%; } }
+/* colors */
+/* Fonts */
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
 body, html {
@@ -814,6 +822,8 @@ body, html {
   .aboutimage {
     width: 80%;
     padding: 5% 10%; } }
+/* colors */
+/* Fonts */
 /* colors */
 /* Fonts */
 /* BUTTON STYLE PACKAGE */
@@ -1166,6 +1176,8 @@ template {
 
 /* colors */
 /* Fonts */
+/* colors */
+/* Fonts */
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
 /* ======= Artists ul ======= */
@@ -1186,17 +1198,13 @@ template {
       width: 100%;
       font-size: 1em;
       margin: 1em auto;
-      text-align: left;
-      align-self: flex-start; }
-      .artists__ul li h2 a {
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-weight: 800;
-        font-size: 1.2em; }
+      text-align: left; }
     .artists__ul li .responsive-circle1 {
       font-size: 80px;
-      width: 80%; }
+      width: 280px; }
+    .artists__ul li .responsive-circle1:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle1::after {
       border-radius: 50%;
       content: "";
@@ -1212,6 +1220,9 @@ template {
     .artists__ul li .responsive-circle2 {
       font-size: 80px;
       width: 80%; }
+    .artists__ul li .responsive-circle2:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle2::after {
       border-radius: 50%;
       content: "";
@@ -1227,6 +1238,9 @@ template {
     .artists__ul li .responsive-circle3 {
       font-size: 80px;
       width: 80%; }
+    .artists__ul li .responsive-circle3:not(:hover) {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
     .artists__ul li .responsive-circle3::after {
       border-radius: 50%;
       content: "";
@@ -1382,6 +1396,8 @@ template {
     text-decoration: none;
     overflow: hidden;
     cursor: pointer; } }
+/* colors */
+/* Fonts */
 /* BUTTON STYLE PACKAGE */
 /* END OF BUTTON STYLE PACKAGE */
 .profile {
