@@ -16,8 +16,9 @@
 	<address class="footer__p">Grønnegade 58 <br>
 	Aarhus, Denmark-8000</address>
 	<iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.8801398776245!2d10.199747315447441!3d56.159176968044314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f94e993c217%3A0x97ca538b52882bed!2sGr%C3%B8nnegade+58%2C+8000+Aarhus!5e0!3m2!1sen!2sdk!4v1526569551840" frameborder="0" style="border:0" allowfullscreen></iframe>
-
+	
 </section>
+
 
 <section class="footerSection">
 
