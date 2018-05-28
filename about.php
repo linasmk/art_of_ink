@@ -8,7 +8,7 @@
 		<section>
 			<h1 class="aboutUs__about-headline">About us</h1>
 
-			<div class="about aboutUs__about intro">
+			<div class="about aboutUs__about parallax intro">
 				<p class="intro-text">
 					We are professional tattoo artists located in 2 beautiful cities - Odense and Aarhus.
 					Art of Ink was born back in the 2008 when the first studio in Odense opened.
@@ -22,6 +22,9 @@
 				<a class="call-to-action black" target="_blank" href="http://m.me/aoiaarhus">Want to have one too?</a>
 			</div>
 		</section>
+
+		<div class="parallax diplomas"></div>
+
 		<section>
 			<h1 class="aboutUs__about-headline black">Our pioneer</h1>
 		<p class="about aboutUs__about white">

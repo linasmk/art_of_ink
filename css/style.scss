@@ -56,6 +56,14 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+}
+
 @font-face {
     font-family: Simpel-Medium;
     src: url(../fonts/Simpel-Medium.otf);

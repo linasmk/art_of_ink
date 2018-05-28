@@ -3,12 +3,16 @@
 }
 
 .intro {
-	background: url("../img/artofink-blur.jpg");
+	background: url("../img/artofink.jpg");
 }
 
 .intro-text {
 	background: $black;
 	padding: 2.5% 5%;
+}
+
+.diplomas {
+	background-image: url("../img/diplomas.jpg");
 }
 
 .aboutUs__about-headline {

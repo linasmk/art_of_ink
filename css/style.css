@@ -854,11 +854,14 @@ template {
   height: 45vh; }
 
 .intro {
-  background: url("../img/artofink-blur.jpg"); }
+  background: url("../img/artofink.jpg"); }
 
 .intro-text {
   background: black;
   padding: 2.5% 5%; }
+
+.diplomas {
+  background-image: url("../img/diplomas.jpg"); }
 
 .aboutUs__about-headline {
   padding: 5% 0; }
@@ -1680,6 +1683,13 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45vh; }
 
 @font-face {
   font-family: Simpel-Medium;
