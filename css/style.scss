@@ -61,7 +61,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vh;
+    height: 40vh;
+}
+
+.white {
+	background: $white;
+	color: $black;
+}
+
+.black {
+	background: $black;
+	color: $white;
 }
 
 @font-face {

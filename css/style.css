@@ -655,10 +655,6 @@ template {
 
   .sidebar__img {
     width: 50%; } }
-/* colors */
-/* Fonts */
-/* BUTTON STYLE PACKAGE */
-/* END OF BUTTON STYLE PACKAGE */
 .videoWrap {
   position: absolute;
   top: 0;
@@ -725,11 +721,7 @@ template {
   opacity: .5;
   padding: 12px 24px; }
 
-.main__works {
-  background: white; }
-
 .main__works-headline {
-  color: black;
   padding: 10% 0; }
 
 @media only screen and (min-width: 968px) {
@@ -853,7 +845,7 @@ template {
     flex-direction: column;
     justify-content: center; } }
 .aboutUs__about {
-  height: 50vh; }
+  height: 55vh; }
 
 .intro {
   background: url("../img/artofink.jpg"); }
@@ -867,14 +859,6 @@ template {
 
 .aboutUs__about-headline {
   padding: 5% 0; }
-
-.white {
-  background: white;
-  color: black; }
-
-.black {
-  background: black;
-  color: white; }
 
 .aboutUs__pic {
   width: 100%;
@@ -1688,7 +1672,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 45vh; }
+  height: 40vh; }
+
+.white {
+  background: white;
+  color: black; }
+
+.black {
+  background: black;
+  color: white; }
 
 @font-face {
   font-family: Simpel-Medium;

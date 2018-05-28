@@ -1,5 +1,3 @@
-@import "../partials/mixins";
-
 .videoWrap {
     position: absolute;
     top: 0;
@@ -77,12 +75,7 @@
   padding: 12px 24px;
 }
 
-.main__works {
-	background: $white;
-}
-
 .main__works-headline {
-	color: $black;
 	padding: 10% 0;
 }
 

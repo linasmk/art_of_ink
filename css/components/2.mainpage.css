@@ -1,122 +1,69 @@
-/* colors */
-/* Fonts */
-/* BUTTON STYLE PACKAGE */
-/* END OF BUTTON STYLE PACKAGE */
-.videoWrap {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden; }
+/*
+Error: Undefined mixin 'flex-vertical-center'.
+        on line 18 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss, in `flex-vertical-center'
+        from line 18 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss
 
-.video {
-  min-width: 100%;
-  min-height: 100%; }
+13: }
+14: 
+15: .about {
+16:     width: 90%;
+17:     padding: 0 5%;
+18:     @include flex-vertical-center;
+19:     background-color: $black;
+20:     color: $white;
+21: }
+22: 
+23: .main__about {
 
-.about {
-  width: 90%;
-  padding: 0 5%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: black;
-  color: white; }
-
-.main__about {
-  height: 70vh; }
-
-.main__about-headline {
-  padding-top: 0; }
-
-.main__headline {
-  font-size: 3em;
-  font-family: Stingray, sans-serif;
-  text-shadow: 2px 5px black;
-  color: white;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9996;
-  width: 90%; }
-
-.scrollDown {
-  animation: MoveUpDown 1s ease infinite;
-  width: 80px;
-  height: auto;
-  position: absolute;
-  top: 85%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 9996;
-  cursor: pointer; }
-
-@keyframes MoveUpDown {
-  0%, 100% {
-    top: 85%; }
-  50% {
-    top: 87%; } }
-.call-to-action {
-  text-decoration: none;
-  padding: 12px 18px;
-  margin: 2.5% auto;
-  transition: .4s ease; }
-
-.call-to-action:hover {
-  opacity: .5;
-  padding: 12px 24px; }
-
-.main__works {
-  background: white; }
-
-.main__works-headline {
-  color: black;
-  padding: 10% 0; }
-
-@media only screen and (min-width: 968px) {
-  .main__headline {
-    font-size: 7em; }
-
-  .main__works-headline {
-    padding: 2.5% 0; }
-
-  .about {
-    width: 50%;
-    padding: 0 25%; } }
-/* Animations */
-.fade-in {
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
-
-@keyframes fade-in {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-.typewriter:after {
-  content: '';
-  animation: write 2s linear;
-  animation-fill-mode: forwards; }
-
-@keyframes write {
-  0% {
-    content: ''; }
-  12.5% {
-    content: 'A'; }
-  25% {
-    content: 'Ar'; }
-  37.5% {
-    content: 'Art'; }
-  50% {
-    content: 'Art o'; }
-  62.5% {
-    content: 'Art of'; }
-  75% {
-    content: 'Art of i'; }
-  87.5% {
-    content: 'Art of in'; }
-  100% {
-    content: 'Art of ink'; } }
-
-/*# sourceMappingURL=2.mainpage.css.map */
+Backtrace:
+C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:18:in `flex-vertical-center'
+C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss:18
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'flex-vertical-center'.\A         on line 18 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss, in `flex-vertical-center'\A         from line 18 of C:\Xampp\htdocs\art_of_ink\css\components\2.mainpage.scss\A \A 13: }\A 14: \A 15: .about {\A 16:     width: 90%;\A 17:     padding: 0 5%;\A 18:     @include flex-vertical-center;\A 19:     background-color: $black;\A 20:     color: $white;\A 21: }\A 22: \A 23: .main__about {"; }

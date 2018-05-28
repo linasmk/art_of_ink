@@ -9,7 +9,7 @@
 	<a class="call-to-action white" href="about.php">Want to know more?</a>
 
 </section>
-<section class="main__works">
+<section class="white">
 		<h1 class="main__works-headline">Our works</h1>
 <div class="insta">
 	<div class='instagrid section' id='Instagram'>
