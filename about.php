@@ -7,14 +7,15 @@
 			<div class="about aboutUs__about intro">
 				<p class="intro-text">
 					We are professional tattoo artists located in 2 beautiful cities - Odense and Aarhus.
+					Art of Ink was born back in the 2008 when the first studio in Odense opened.
 				</p>
 			</div>
 
-			<div class="about aboutUs__about white">
+			<div class="about aboutUs__about tattooCount white">
 				<p>
-					Art of Ink was born back in the 2008 when the first studio in Odense opened. Since then we have made <span id="tattoosMade"></span> tattoos.
+					During the years we have established high quality standards and we are not settling down for anything less than greatness in our work. We have made <span id="tattoosMade"></span> tattoos.
 				</p>
-				<a class="call-to-action black" href="#contact">Want to have one too?</a>
+				<a class="call-to-action black" href="http://m.me/aoiaarhus">Want to have one too?</a>
 			</div>
 		</section>
 		<section>
