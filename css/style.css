@@ -530,7 +530,7 @@ template {
 /* colors */
 /* Fonts */
 .menu-icon {
-  z-index: 3;
+  z-index: 9998;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -569,7 +569,7 @@ template {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -70%;
+  left: 100%;
   width: 70%;
   height: 100vh;
   background: black;
@@ -577,10 +577,10 @@ template {
   padding: 2em 1em 1em 1em;
   text-align: center;
   box-sizing: border-box;
-  z-index: 9999; }
+  z-index: 9997; }
 
 .sidebar.active {
-  left: 0; }
+  left: 30%; }
 
 .sidebar__img {
   width: 80%;
@@ -639,15 +639,19 @@ template {
 
 @media screen and (min-width: 768px) {
   .sidebar {
-    left: -40%;
     width: 40%; }
+
+  .sidebar.active {
+    left: 60%; }
 
   .sidebar__img {
     width: 60%; } }
 @media screen and (min-width: 1024px) {
   .sidebar {
-    left: -30%;
     width: 30%; }
+
+  .sidebar.active {
+    left: 70%; }
 
   .sidebar__img {
     width: 50%; } }
@@ -692,7 +696,7 @@ template {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9998;
+  z-index: 9996;
   width: 90%; }
 
 .scrollDown {
@@ -703,7 +707,7 @@ template {
   top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9998;
+  z-index: 9996;
   cursor: pointer; }
 
 @keyframes MoveUpDown {
@@ -831,8 +835,8 @@ template {
   height: 50vh; }
 
 .copyright {
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   flex-shrink: 0;
   text-align: center;
   padding: .5% 0; }
