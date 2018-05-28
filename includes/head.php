@@ -7,7 +7,7 @@
 	<meta name="authors" content="linas Mackonis, Maciek Wozniak, Gabriel Florin-Pojum, Dāvis Ābols">
 
 	<title>Art of Ink</title>
-	<link rel="shortcut icon" href="./img/favicon.jpg" alt="logo" />
+	<link rel="shortcut icon" href="./img/favicon.jpg"/>
 
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/magnific.css">

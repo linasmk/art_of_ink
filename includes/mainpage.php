@@ -15,7 +15,7 @@
 	<div class='instagrid section' id='Instagram'>
 		<div class='instagrid.css' data-version='1' id='instagridz'>
 			<div class='instagrid.css'>
-							<script type='text/javascript'>
+							<script>
 
 							var feed=new ody({get:"user",
 								limit: 8, // Limit the number of posts shown
@@ -23,8 +23,8 @@
 								resolution:"standard_resolution",
 								template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
 
-							userId:3424121309,
-							accessToken:"3424121309.20381ad.89e8ec8a36df4fc1912b014c3c7c6b66"
+							userId:6630985,
+							accessToken:"6630985.a54185f.bc84369dddc041e684a26d99a4f8a1b6"
 							});feed.run();
 							</script>
 				<div id='ody'></div>
