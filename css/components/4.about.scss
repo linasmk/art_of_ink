@@ -1,5 +1,5 @@
 .aboutUs__about {
-    height: 45vh;
+    height: 50vh;
 }
 
 .intro {
@@ -38,19 +38,17 @@
 	display: none;
 }
 
-.tattooCount {
-	height: 50vh;
-}
-
-.aboutHP {
-	height: 50vh;
-}
-
 #tattoosMade {
  	font-weight: bold;
 }
 
 @media screen and (min-width: 968px) {
+	.aboutUs__about {
+    	height: 40vh;
+	}
+	.aboutUs__about-headline {
+		padding: 2.5% 0;
+	}
 	.hp-pic {
 		width: 50%;
 		float: left;

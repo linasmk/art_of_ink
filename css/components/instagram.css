@@ -30,9 +30,6 @@ www.lucasgatsas.ch
   padding: 0;
   float: left; }
 
-#ody li:last-child {
-  margin-bottom: 10%; }
-
 #ody .instagrid-z {
   z-index: 0;
   width: 100%;

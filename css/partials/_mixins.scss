@@ -86,3 +86,9 @@
 }
 
 /* END OF BUTTON STYLE PACKAGE */
+
+@mixin flex-vertical-center {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

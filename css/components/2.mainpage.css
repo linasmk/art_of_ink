@@ -60,14 +60,13 @@
     top: 87%; } }
 .call-to-action {
   text-decoration: none;
-  background: white;
-  color: black;
   padding: 12px 18px;
-  margin: 5% auto;
-  transition: .5s; }
+  margin: 2.5% auto;
+  transition: .4s ease; }
 
 .call-to-action:hover {
-  opacity: .25; }
+  opacity: .5;
+  padding: 12px 24px; }
 
 .main__works {
   background: white; }

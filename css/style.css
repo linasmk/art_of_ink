@@ -717,14 +717,13 @@ template {
     top: 87%; } }
 .call-to-action {
   text-decoration: none;
-  background: white;
-  color: black;
   padding: 12px 18px;
-  margin: 5% auto;
-  transition: .5s; }
+  margin: 2.5% auto;
+  transition: .4s ease; }
 
 .call-to-action:hover {
-  opacity: .25; }
+  opacity: .5;
+  padding: 12px 24px; }
 
 .main__works {
   background: white; }
@@ -776,13 +775,8 @@ template {
     content: 'Art of in'; }
   100% {
     content: 'Art of ink'; } }
-/* colors */
-/* Fonts */
 .footer {
-  color: white;
-  background: black;
-  text-align: center;
-  padding: 2.5% 0; }
+  text-align: center; }
 
 .footer__h {
   margin: 0;
@@ -798,7 +792,7 @@ template {
 
 .phoneLink {
   text-decoration: none;
-  color: white; }
+  color: black; }
 
 .phoneIcon {
   vertical-align: middle; }
@@ -846,12 +840,20 @@ template {
     padding: 1.5% 0; }
 
   .footer__p {
-    padding: .25% 0; }
+    padding: .75% 0; }
 
   .googleMaps {
-    height: 70vh; } }
+    width: 50%; }
+
+  .addressWrapper {
+    width: 50%;
+    height: 50vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; } }
 .aboutUs__about {
-  height: 45vh; }
+  height: 50vh; }
 
 .intro {
   background: url("../img/artofink.jpg"); }
@@ -881,16 +883,16 @@ template {
 .hp-pic2 {
   display: none; }
 
-.tattooCount {
-  height: 50vh; }
-
-.aboutHP {
-  height: 50vh; }
-
 #tattoosMade {
   font-weight: bold; }
 
 @media screen and (min-width: 968px) {
+  .aboutUs__about {
+    height: 40vh; }
+
+  .aboutUs__about-headline {
+    padding: 2.5% 0; }
+
   .hp-pic {
     width: 50%;
     float: left; }
@@ -1606,9 +1608,6 @@ www.lucasgatsas.ch
   margin: 0;
   padding: 0;
   float: left; }
-
-#ody li:last-child {
-  margin-bottom: 10%; }
 
 #ody .instagrid-z {
   z-index: 0;
