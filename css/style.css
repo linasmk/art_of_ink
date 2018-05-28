@@ -1651,7 +1651,8 @@ body {
   overflow-x: hidden; }
 
 .wrapper {
-  flex: 1 0 auto; }
+  flex: 1 0 auto;
+  margin-top: 100vh; }
 
 .artistsWrapper {
   margin-top: 0; }
