@@ -390,7 +390,7 @@ template {
       .artists__ul li div p {
         width: 100%;
         font-size: 1em;
-        color: darkgray;
+        color: black;
         margin: 15px 0;
         text-align: left; }
       .artists__ul li div a {
@@ -1328,7 +1328,7 @@ template {
       .artists__ul li div p {
         width: 100%;
         font-size: 1em;
-        color: darkgray;
+        color: black;
         margin: 15px 0;
         text-align: left; }
       .artists__ul li div a {
