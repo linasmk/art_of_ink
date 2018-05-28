@@ -6,7 +6,7 @@ var days = 'sunday,monday,tuesday,wednesday,thursday,friday,saturday'.split(',')
 document.getElementById( days[thisDay] ).classList.add('bold');
 
 function openStatus() {
-	if((thisDay !== 6 && thisDay !== 1 && thisDay !== 2) && (time >= 10 && time <= 18)) {
+	if((thisDay !== 6 && thisDay !== 7 && thisDay !== 2) && (time >= 10 && time <= 18)) {
 		document.getElementById('openStatus').innerHTML = "open :)";
 		document.getElementById('openMessage').classList.remove("d-none");
 	}
