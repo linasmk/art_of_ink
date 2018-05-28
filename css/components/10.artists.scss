@@ -47,9 +47,6 @@ margin-top: 10%;
 }
 }
 @media screen and (min-width: 1324px) {
-.main--artists {
-@include grid(25% 50% 25%);
-}
 .article--artists h1 {
 margin-top: 5%;
 }
