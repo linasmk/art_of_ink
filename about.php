@@ -15,7 +15,7 @@
 				<p>
 					During the years we have established high quality standards and we are not settling down for anything less than greatness in our work. We have made <span id="tattoosMade"></span> tattoos.
 				</p>
-				<a class="call-to-action black" href="http://m.me/aoiaarhus">Want to have one too?</a>
+				<a class="call-to-action black" target="_blank" href="http://m.me/aoiaarhus">Want to have one too?</a>
 			</div>
 		</section>
 		<section>
