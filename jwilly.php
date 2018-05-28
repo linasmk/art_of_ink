@@ -1,7 +1,7 @@
 <?php require "includes/head.php" ?>
 <?php require "includes/loader.php" ?>
 
-<div id="wrapper" class="wrapper d-none">
+<div id="wrapper" class="wrapper artistsWrapper d-none">
 <?php include "includes/header.php" ?>
 
 	<main class="main--artists" id="artists">

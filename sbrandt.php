@@ -1,14 +1,16 @@
 <?php require "includes/head.php" ?>
 <?php require "includes/loader.php" ?>
 
-<div id="wrapper" class="wrapper d-none">
+<div id="wrapper" class="wrapper artistsWrapper d-none">
 <?php include "includes/header.php" ?>
 
 	<main class="main--artists" id="artists">
 		<article class="article--artists profile">
 			<h2>Simon Brandt</a></h2>
 			<div class="responsive-circle2 bgimg2"></div>
-			<p>Simon started his career in Aarhus, shortly after the new shop opened in the city. 
+			<p>Simon started his career in Aarhus, shortly after the new shop opened in the city.
+			</p>
+			<p>
 			He was taught up by HP, but spent a lot of his day to day life in company with Jonas, while also being a part of the graffiti environment, which can be seen in a lot of his earlier work. He has since then gravitated mainly towards black and grey with fine lines, dotwork, and a sense of the small details.
 			</p>
 		</article>

@@ -935,10 +935,6 @@ template {
   .article--artists h1 {
     margin-top: 10%; } }
 @media screen and (min-width: 1324px) {
-  .main--artists {
-    display: grid;
-    grid-template-columns: 25% 50% 25%; }
-
   .article--artists h1 {
     margin-top: 5%; } }
 /* colors */
@@ -1487,7 +1483,8 @@ template {
 .responsive-circle1 {
   align-self: flex-start;
   font-size: 80px;
-  width: 80%; }
+  width: 30%;
+  padding: 0 35%; }
 
 .responsive-circle1:not(:hover) {
   -webkit-filter: grayscale(100%);
@@ -1523,7 +1520,8 @@ template {
 .responsive-circle2 {
   align-self: flex-start;
   font-size: 80px;
-  width: 80%; }
+  width: 30%;
+  padding: 0 35%; }
 
 .responsive-circle2:not(:hover) {
   -webkit-filter: grayscale(100%);
@@ -1548,7 +1546,8 @@ template {
 .responsive-circle3 {
   align-self: flex-start;
   font-size: 80px;
-  width: 80%; }
+  width: 30%;
+  padding: 0 35%; }
 
 .responsive-circle3:not(:hover) {
   -webkit-filter: grayscale(100%);
