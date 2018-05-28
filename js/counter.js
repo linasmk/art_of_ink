@@ -1,3 +1,4 @@
+// Funtion for counting the amount of tattoos made
 function counter(id, start, end, duration) {
     var range = end - start,
         current = start,
