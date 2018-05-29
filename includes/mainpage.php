@@ -11,6 +11,8 @@
 </section>
 <section class="white">
 		<h1 class="main__works-headline">Our works</h1>
+
+<!--instagram feed section https://github.com/SpaceG/instagrid.css -->
 <div class="insta">
 	<div class='instagrid section' id='Instagram'>
 		<div class='instagrid.css' data-version='1' id='instagridz'>
