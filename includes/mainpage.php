@@ -23,8 +23,8 @@
 								resolution:"standard_resolution",
 								template:'<li><a href="{{link}}" target="_blank" style="background-image:url({{image}});background-size: cover;"><img src="https://lh3.googleusercontent.com/-P-gOTAfNfZ4/V2RPSYvECxI/AAAAAAAABng/Efqy2Oxjqm4lrmDhT07PBtlgYRb_MlJ7QCCo/s576/questyerror.png"></img><div class="instagrid-z"><div class="instagrids"><span class="instagrid-outter">{{likes}} <i class="fa fa-heart"></i><br/>{{comments}} <i class="fa fa-comment"></i></span></div></div></a></li>',
 
-							userId:6630985,
-							accessToken:"6630985.a54185f.bc84369dddc041e684a26d99a4f8a1b6"
+							userId:3424121309,
+							accessToken:"3424121309.5e6748a.0ed6cc077acc4c068c4d7b61d5d43a9a"
 							});feed.run();
 							</script>
 				<div id='ody'></div>
