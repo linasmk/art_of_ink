@@ -7,7 +7,11 @@
 	<main class="main--artists" id="artists">
 		<article class="article--artists profile">
 			<h2>Kamilla Rieder</a></h2>
-			<div class="responsive-circle3 bgimg3"></div>
+			<div class="circle-container">
+			<img src="img/krieder.jpg" class="responsive-circle">
+			<span class="circle-cover"></span>
+			<a href="https://www.instagram.com/jonaswilly/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
+			</div>
 			<p>Kamilla is the youngest member of the group and is currently the only woman in the shop.</p>
 			<p>She came in as an apprentice in the Aarhus shop, and can be found there daily. 
 			Kamilla has a fine line and does well with smaller tattoos, but enjoys doing a bit of everything. When drawing she leans towards a darker style, and is always ready to do pieces that ventures into the dark art style.
