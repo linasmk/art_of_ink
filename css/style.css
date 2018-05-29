@@ -1564,7 +1564,8 @@ template {
 .instabox {
   grid-area: 1/2;
   position: relative;
-  grid-row-start: 2; }
+  grid-row-start: 2;
+  margin-bottom: 5vh; }
 
 @media screen and (min-width: 480px) {
   .profile {
