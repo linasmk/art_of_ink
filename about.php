@@ -1,7 +1,5 @@
 <?php require "includes/head.php" ?>
 
-<body>
-
 	<?php require "includes/loader.php" ?>
 
 	<div id="wrapper" class="wrapper d-none">
@@ -38,8 +36,7 @@
 					HP has tattooed for about 20 years, and has taught up several talented artists during this time. HP is skillful in all styles, but has always had a certain eye for oriental. He loves freehand work, and will gladly create big japanese pieces this way.
 				</p>
 			</section>
-			<?php include "includes/footer.php" ?>
-
+			
 	</div>
 
 <script src="js/loader.js"></script>
@@ -52,4 +49,4 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
 
-</body>
+ <?php include "includes/footer.php" ?>

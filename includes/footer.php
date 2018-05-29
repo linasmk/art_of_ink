@@ -1,3 +1,4 @@
+
 <footer class="footer black" id="contact">
 	<h1 class="footer__h">Contact</h1>
 
@@ -83,3 +84,5 @@
 <div class="copyright">
 	<small>&copy; Copyright Art of Ink, 2018</small>
 </div>
+</body>
+</html>

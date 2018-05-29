@@ -1,7 +1,5 @@
 <?php require "includes/head.php" ?>
 
-<body>
-
 	<?php require "includes/loader.php" ?>
 
 	<div id="wrapper" class="wrapper d-none">
@@ -40,10 +38,7 @@
 				</article>
 			
 			</main>
-		<?php include "includes/footer.php" ?>
-
 	</div>
-
 <script src="js/loader.js"></script>
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>
@@ -51,5 +46,4 @@
 <script src="js/maps.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
-
-</body>
+<?php include "includes/footer.php" ?>

@@ -34,5 +34,4 @@
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
 			    async defer></script>
 
-</body>
-</html>
+

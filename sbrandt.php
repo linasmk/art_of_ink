@@ -1,7 +1,5 @@
 <?php require "includes/head.php" ?>
 
-<body>
-
 <?php require "includes/loader.php" ?>
 
 <div id="wrapper" class="wrapper d-none">
@@ -42,8 +40,6 @@
 			</article>
 		</main>
 
-	<?php include "includes/footer.php" ?>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -54,6 +50,4 @@
 <script src="js/maps.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
-
-
-</body>
+<?php include "includes/footer.php" ?>

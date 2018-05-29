@@ -1,34 +1,13 @@
 <?php require "includes/head.php" ?>
 
-<body>
 
 <?php require "includes/loader.php" ?>
 
-<<<<<<< HEAD
 
-<div id="wrapper" class="wrapper artistsWrapper d-none">
-<?php include "includes/header.php" ?>
 
-	<main class="main--artists" id="artists">
-		<article class="article--artists profile">
-			<h2>Kamilla Rieder</a></h2>
-			<div class="circle-container">
-			<img src="img/krieder.jpg" class="responsive-circle">
-			<span class="circle-cover"></span>
-			<a href="https://www.instagram.com/jonaswilly/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
-			</div>
-			<p>Kamilla is the youngest member of the group and is currently the only woman in the shop.</p>
-			<p>She came in as an apprentice in the Aarhus shop, and can be found there daily. 
-			Kamilla has a fine line and does well with smaller tattoos, but enjoys doing a bit of everything. When drawing she leans towards a darker style, and is always ready to do pieces that ventures into the dark art style.
-			</p>
-		</article>
-		
-		<article class="instabox">
-			<div class='instagrid section' id='Instagram'>
 				
 
-=======
->>>>>>> f7ee6e635b17aefb26ed7311d29c419fe34db660
+
 <div id="wrapper" class="wrapper d-none">
 	<?php include "includes/header.php" ?>
 
@@ -44,10 +23,7 @@
 			
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
-<<<<<<< HEAD
 
-=======
->>>>>>> f7ee6e635b17aefb26ed7311d29c419fe34db660
 					
 						
 								<script type='text/javascript'>
@@ -70,8 +46,6 @@
 			</article>
 		</main>
 
-	<?php include "includes/footer.php" ?>
-
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -83,4 +57,4 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
 
-</body>
+<?php include "includes/footer.php" ?>
