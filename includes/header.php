@@ -1,5 +1,3 @@
-<body>
-
 	<div id="fb-root"></div>
 
 	<header class="header">

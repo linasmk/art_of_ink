@@ -12,7 +12,6 @@
 			<address class="footer__p">Grønnegade 58, Aarhus, Denmark-8000</address>
 		</div>
 		
-		<!--<iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2221.8801398776245!2d10.199747315447441!3d56.159176968044314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f94e993c217%3A0x97ca538b52882bed!2sGr%C3%B8nnegade+58%2C+8000+Aarhus!5e0!3m2!1sen!2sdk!4v1526569551840" frameborder="0" style="border:0" allowfullscreen></iframe>-->
 		<div class="googleMaps" id="locationMap"></div>
 
 </section>
@@ -39,9 +38,13 @@
 <section class="footer__section openingHours__section">
 
 	<h2 class="footer__h">Opening hours</h2>
+
 	<p>We are <span class="bold" id="openStatus"></span></p>
+
 	<p id="openMessage" class="d-none footer__p">You are welcome to come by, have a chat & a cup of coffee!</p>
+	
 	<p id="closedMessage" class="d-none footer__p">You can send us a message on facebook or come by later.</p>
+
 	<table class="openingHours__table">
 		<tr id="monday">
 			<td>Monday:</td>

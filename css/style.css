@@ -1642,14 +1642,11 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  flex: 1 0 auto; }
 
-.wrapper {
-  flex: 1 0 auto;
+.videoMargin {
   margin-top: 100vh; }
-
-.artistsWrapper {
-  margin-top: 0; }
 
 .d-none {
   display: none; }
