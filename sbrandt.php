@@ -8,7 +8,11 @@
 		<main class="main--artists" id="artists">
 			<article class="article--artists profile">
 				<h2>Simon Brandt</a></h2>
-				<div class="responsive-circle2 bgimg2"></div>
+				<div class="circle-container">
+					<img src="img/sbrandt.jpg" class="responsive-circle">
+					<span class="circle-cover"></span>
+					<a href="https://www.instagram.com/simonbrandt8k/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
+			 	</div>
 				<p>Simon started his career in Aarhus, shortly after the new shop opened in the city.
 				</p>
 				<p>

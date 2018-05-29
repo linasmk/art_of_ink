@@ -540,32 +540,6 @@ template {
   font-size: 1.5em;
   color: darkgray; }
 
-/* Responsive Circle */
-.responsive-circle1 {
-  align-self: flex-start;
-  font-size: 80px;
-  width: 30%;
-  padding: 0 35%; }
-
-.responsive-circle1:not(:hover) {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%); }
-
-.responsive-circle1::after {
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 0;
-  padding-bottom: 100%;
-  width: 100%; }
-
-.bgimg1:after {
-  background-image: url(../img/jwilly.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-/* End of Responsive Circle */
 .instabox {
   grid-area: 1/2;
   position: relative;
@@ -573,9 +547,6 @@ template {
 
 @media screen and (min-width: 480px) {
   .profile {
-    justify-content: flex-start; }
-
-  .responsive-circle1 {
-    width: 60%; } }
+    justify-content: flex-start; } }
 
 /*# sourceMappingURL=11.jwilly.css.map */

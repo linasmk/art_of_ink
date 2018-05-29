@@ -19,24 +19,7 @@
 	color: $darkgrey;
 }
 
-/* Responsive Circle */
-		.responsive-circle1 {
-    		align-self: flex-start;
-    		font-size: 80px;
-    		width: 30%;
-    		padding: 0 35%;
-		}
-		.responsive-circle1:not(:hover) {
-    		-webkit-filter: grayscale(100%);
-    		filter: grayscale(100%);
-		}
-		.responsive-circle1::after {
-			@include responsiveCircleAfter;
-					}
-		.bgimg1:after {
-			@include backgroundIMG(url(../img/jwilly.jpg), 100%, center);
-		}
-/* End of Responsive Circle */
+
 
 .instabox {
 	grid-area: 1/2;
@@ -47,10 +30,6 @@
 @media screen and (min-width: 480px) {
 .profile {
 justify-content: flex-start;
-}
-.responsive-circle1 {
-	width: 60%;
-	
 }
 .profile p {
 	
