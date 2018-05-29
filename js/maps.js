@@ -1,6 +1,7 @@
 var gMapAPIKey = "AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk";
 
 var map;
+var marker;
 var mapMarkers=[];
 function initMap() {
 
@@ -19,6 +20,8 @@ function initMap() {
 	    icon: {url: "img/logo.png.", scaledSize: new google.maps.Size(90, 90)},
 	    category: "center"
 	});
+
+   
    
 }
 
