@@ -4,6 +4,7 @@
 
 <?php require "includes/loader.php" ?>
 
+<<<<<<< HEAD
 
 <div id="wrapper" class="wrapper artistsWrapper d-none">
 <?php include "includes/header.php" ?>
@@ -26,6 +27,8 @@
 			<div class='instagrid section' id='Instagram'>
 				
 
+=======
+>>>>>>> f7ee6e635b17aefb26ed7311d29c419fe34db660
 <div id="wrapper" class="wrapper d-none">
 	<?php include "includes/header.php" ?>
 
@@ -41,7 +44,10 @@
 			
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7ee6e635b17aefb26ed7311d29c419fe34db660
 					
 						
 								<script type='text/javascript'>
