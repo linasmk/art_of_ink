@@ -1,4 +1,17 @@
-
+<?php 
+$siteroot = "";
+//$siteroot = "/2.PROJECTS/PERSONAL_DIGITAL_PORTRAIT/personal_digital_portrait_version5"; 
+?>
+<?php 
+$startYear = 2008;
+$thisYear = date('Y');
+if ($thisYear > $startYear) {
+    $thisYear = date('y');
+    $copyright = "$startYear&dash;$thisYear";
+} else {
+    $copyright = $startYear;
+}
+ ?>
 <footer class="footer black" id="contact">
 	<h1 class="footer__h">Contact</h1>
 
@@ -82,7 +95,7 @@
 </footer>
 
 <div class="copyright">
-	<small>&copy; Copyright Art of Ink, 2018</small>
+	<small>&copy; All rights reserved<br> Art of Ink, <?php echo $copyright ?></small>
 </div>
 </body>
 </html>
