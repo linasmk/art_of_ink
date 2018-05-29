@@ -38,7 +38,7 @@
 				</article>
 			
 			</main>
-	</div>
+	
 <script src="js/loader.js"></script>
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>

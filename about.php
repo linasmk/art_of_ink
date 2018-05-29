@@ -36,8 +36,6 @@
 					HP has tattooed for about 20 years, and has taught up several talented artists during this time. HP is skillful in all styles, but has always had a certain eye for oriental. He loves freehand work, and will gladly create big japanese pieces this way.
 				</p>
 			</section>
-			
-	</div>
 
 <script src="js/loader.js"></script>
 <script src="js/smoothScroll.js"></script>

@@ -19,11 +19,11 @@
 
 			<div class="clearfix"></div>
 
-			<?php include "includes/footer.php" ?>
+			
 
 			</div>
 
-	</div>
+	
 
 			<script src="js/smoothScroll.js"></script>
 			<script src="js/loader.js"></script>
@@ -34,4 +34,4 @@
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
 			    async defer></script>
 
-
+<?php include "includes/footer.php" ?>
