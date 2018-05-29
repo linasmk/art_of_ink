@@ -4,6 +4,29 @@
 
 <?php require "includes/loader.php" ?>
 
+<<<<<<< HEAD
+<div id="wrapper" class="wrapper artistsWrapper d-none">
+<?php include "includes/header.php" ?>
+
+	<main class="main--artists" id="artists">
+		<article class="article--artists profile">
+			<h2>Simon Brandt</a></h2>
+			<div class="circle-container">
+			<img src="img/sbrandt.jpg" class="responsive-circle">
+			<span class="circle-cover"></span>
+			<a href="https://www.instagram.com/jonaswilly/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
+			</div>
+			<p>Simon started his career in Aarhus, shortly after the new shop opened in the city.
+			</p>
+			<p>
+			He was taught up by HP, but spent a lot of his day to day life in company with Jonas, while also being a part of the graffiti environment, which can be seen in a lot of his earlier work. He has since then gravitated mainly towards black and grey with fine lines, dotwork, and a sense of the small details.
+			</p>
+		</article>
+		
+		<article class="instabox">
+			<div class='instagrid section' id='Instagram'>
+				
+=======
 <div id="wrapper" class="wrapper d-none">
 	<?php include "includes/header.php" ?>
 
@@ -20,6 +43,7 @@
 			
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
+>>>>>>> 29fe8f176fb766f7e57a87ace17e55d807421268
 					
 						
 								<script type='text/javascript'>

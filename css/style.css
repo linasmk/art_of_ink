@@ -1473,29 +1473,60 @@ template {
   color: darkgray; }
 
 /* Responsive Circle */
-.responsive-circle1 {
-  align-self: flex-start;
-  font-size: 80px;
-  width: 30%;
-  padding: 0 35%; }
+.circle-container {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden; }
 
-.responsive-circle1:not(:hover) {
+.circle-container:hover {
+  overflow: hidden; }
+
+.responsive-circle {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.responsive-circle:not(:hover) .circle-cover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); }
 
-.responsive-circle1::after {
-  border-radius: 50%;
-  content: "";
-  display: block;
-  height: 0;
-  padding-bottom: 100%;
-  width: 100%; }
+.circle-cover {
+  position: absolute;
+  top: 508px;
+  left: -176px;
+  height: 300px;
+  width: 345px;
+  border-radius: 140px 140px 0 0;
+  -moz-border-radius: 140px 140px 0 0;
+  -webkit-border-radius: 140px 140px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  transform: rotate(-135deg);
+  transition: all .4s ease-in-out; }
 
-.bgimg1:after {
-  background-image: url(../img/jwilly.jpg);
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat; }
+.circle-container:hover .circle-cover {
+  top: 70px;
+  left: -150px; }
+
+.instagram-icon {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 0);
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  transition: all .4s ease-in-out; }
+
+.circle-container:hover .instagram-icon {
+  bottom: 70px;
+  left: 115px;
+  cursor: pointer; }
 
 /* End of Responsive Circle */
 .instabox {
@@ -1507,8 +1538,41 @@ template {
   .profile {
     justify-content: flex-start; }
 
-  .responsive-circle1 {
-    width: 60%; } }
+  /*.responsive-circle1 {
+  	width: 60%;
+  }*/ }
+@media screen and (min-width: 1024px) {
+  /* Responsive Circle */
+  .circle-container {
+    width: 500px;
+    height: 500px; }
+
+  .responsive-circle {
+    width: 500px;
+    height: 500px; }
+
+  .circle-cover {
+    top: 508px;
+    left: -176px;
+    height: 250px;
+    width: 558px;
+    border-radius: 260px 260px 0 0;
+    -moz-border-radius: 260px 260px 0 0;
+    -webkit-border-radius: 260px 260px 0 0; }
+
+  .circle-container:hover .circle-cover {
+    top: 205px;
+    left: -125px; }
+
+  .instagram-icon {
+    bottom: 0;
+    left: 0; }
+
+  .circle-container:hover .instagram-icon {
+    bottom: 155px;
+    left: 185px; }
+
+  /* End of Responsive Circle */ }
 /* Responsive Circle */
 .responsive-circle2 {
   align-self: flex-start;
