@@ -9,13 +9,23 @@
   grid-template-columns: 2.5% 95% 2.5%;
   background-color: white; }
 
+/* For the artists.php */
+.article--artists-group {
+  grid-area: 1/2;
+  background-color: white; }
+
+/* For the individual profiles */
 .article--artists {
-  grid-area: 1/2; }
+  grid-area: 1/2;
+  background-color: black; }
 
 .article--artists h1 {
   color: black;
   text-align: center;
   margin-top: 25%; }
+
+.article--artists h2 {
+  color: white; }
 
 /* Responsive Circle */
 .circle-container {
@@ -74,6 +84,28 @@
   cursor: pointer; }
 
 /* End of Responsive Circle */
+.sidebarleft {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-column-end: 2;
+  background-color: black;
+  height: auto; }
+
+.sidebarright {
+  grid-row-start: 1;
+  grid-column-start: 3;
+  grid-row-end: 1;
+  grid-column-end: 3;
+  background-color: black;
+  height: auto; }
+
+.instabox {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  position: relative;
+  grid-row-start: 2; }
+
 @media screen and (min-width: 480px) {
   .main--artists {
     display: grid;

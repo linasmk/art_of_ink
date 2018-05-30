@@ -1,29 +1,28 @@
 <?php require "includes/head.php" ?>
 
-
 <?php require "includes/loader.php" ?>
 
-
-
-				
-
-
 <div id="wrapper" class="wrapper d-none">
-	<?php include "includes/header.php" ?>
 
-		<main class="main--artists" id="artists">
+<?php include "includes/header.php" ?>
+
+	<main class="main--artists" id="artists">
+		<div class="sidebarleft"></div>
 			<article class="article--artists profile">
+				
 				<h2>Kamilla Rieder</a></h2>
 				<div class="circle-container">
 					<img src="img/krieder.jpg" class="responsive-circle">
 					<span class="circle-cover"></span>
-						<a href="https://www.instagram.com/kamilla.ri/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
+					<a href="https://www.instagram.com/kamilla.ri/" target="_blank"><img class="instagram-icon" src="img/instagram_icon.svg"></a>
 				</div>
+
 				<p>Kamilla is the youngest member of the group and is currently the only woman in the shop.</p>
 				<p>She came in as an apprentice in the Aarhus shop, and can be found there daily. 
 				Kamilla has a fine line and does well with smaller tattoos, but enjoys doing a bit of everything. When drawing she leans towards a darker style, and is always ready to do pieces that ventures into the dark art style.
 				</p>
 			</article>
+			<div class="sidebarright"></div>
 			
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
@@ -48,7 +47,7 @@
 				</div>
 			
 			</article>
-		</main>
+	</main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="js/loader.js"></script>

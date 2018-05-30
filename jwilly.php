@@ -3,10 +3,14 @@
 <?php require "includes/loader.php" ?>
 
 <div id="wrapper" class="wrapper d-none">
-	<?php include "includes/header.php" ?>
 
-		<main class="main--artists" id="artists">
-			<article class="article--artists profile">
+<?php include "includes/header.php" ?>
+
+	<main class="main--artists" id="artists">
+		
+		<div class="sidebarleft"></div>
+
+		<article class="article--artists profile">
 				<h2>Jonas Willy Brund-Andersen</a></h2>
 				<div class="circle-container">
 					<img src="img/jwilly.jpg" class="responsive-circle">
@@ -17,7 +21,7 @@
 				<p>It didn’t take long before it was decided that another shop would open in Aarhus, and Jonas moved from Odense to take care of the new shop.</p>
 				<p>Today he is the co-owner of the Aarhus shop and has tattooed for almost 10 years. He tattoos in all styles and loves a good challenge – big or small, though he has always had a soft spot for traditional.</p>
 			</article>
-			
+			<div class="sidebarright"></div>
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
 					
@@ -40,7 +44,7 @@
 				</div>
 			
 			</article>
-		</main>
+	</main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="js/loader.js"></script>

@@ -6,7 +6,7 @@
 
 		<?php include "includes/header.php" ?>
 			<main class="main--artists" id="artists">
-				<article class="article--artists">
+				<article class="article--artists-group">
 					<h1>Meet Our Artists</h1>
 					<ul class="artists__ul">
 						<li>

@@ -3,10 +3,13 @@
 <?php require "includes/loader.php" ?>
 
 <div id="wrapper" class="wrapper d-none">
-	<?php include "includes/header.php" ?>
 
-		<main class="main--artists" id="artists">
-			<article class="article--artists profile">
+<?php include "includes/header.php" ?>
+
+	<main class="main--artists" id="artists">
+		<div class="sidebarleft"></div>
+		<article class="article--artists profile">
+		
 				<h2>Simon Brandt</a></h2>
 				<div class="circle-container">
 					<img src="img/sbrandt.jpg" class="responsive-circle">
@@ -19,7 +22,7 @@
 				He was taught up by HP, but spent a lot of his day to day life in company with Jonas, while also being a part of the graffiti environment, which can be seen in a lot of his earlier work. He has since then gravitated mainly towards black and grey with fine lines, dotwork, and a sense of the small details.
 				</p>
 			</article>
-			
+			<div class="sidebarright"></div>
 			<article class="instabox">
 				<div class='instagrid section' id='Instagram'>
 					
@@ -41,8 +44,8 @@
 					
 				</div>
 			
-			</article>
-		</main>
+		</article>
+	</main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="js/loader.js"></script>
