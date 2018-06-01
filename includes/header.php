@@ -1,4 +1,4 @@
-	<div id="fb-root"></div>
+<div id="fb-root"></div>
 
 	<header class="header">
 		<div id="menu-icon" class="menu-icon menu">

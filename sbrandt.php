@@ -1,3 +1,5 @@
+<?php $pageTitle = "Simon Brandt"; ?>
+
 <?php require "includes/head.php" ?>
 
 <?php require "includes/loader.php" ?>

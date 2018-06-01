@@ -1,3 +1,8 @@
+<?php $pageTitle = "Art of Ink"; 
+$menuTab = "Home";
+
+?>
+
 <?php require "includes/head.php" ?>
 
 <body>
