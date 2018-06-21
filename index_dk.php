@@ -19,8 +19,8 @@ $menuTab = "Home";
 
 			<div class="videoMargin">
 
-			<?php require "includes/header.php" ?>
-			<?php include "includes/mainpage.php" ?>
+			<?php require "includes/header_dk.php" ?>
+			<?php include "includes/mainpage_dk.php" ?>
 
 			<div class="clearfix"></div>
 
@@ -39,4 +39,4 @@ $menuTab = "Home";
 			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
 			    async defer></script>
 
-<?php include "includes/footer.php" ?>
+<?php include "includes/footer_dk.php" ?>

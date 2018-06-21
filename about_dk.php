@@ -6,7 +6,7 @@
 
 	<div id="wrapper" class="wrapper d-none">
 
-			<?php require "includes/header.php" ?>
+			<?php require "includes/header_dk.php" ?>
 			
 			<section>
 				<h1 class="aboutUs__about-headline black">About us</h1>

@@ -6,7 +6,7 @@
 
 	<div id="wrapper" class="wrapper d-none">
 
-		<?php include "includes/header.php" ?>
+		<?php include "includes/header_dk.php" ?>
 			<main class="main--artists" id="artists">
 				<article class="article--artists-group">
 					<h1>Meet Our Artists</h1>
