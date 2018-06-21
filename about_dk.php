@@ -30,12 +30,16 @@
 			<section>
 					<h1 class="aboutUs__about-headline black">Our pioneer</h1>
 				<p class="about aboutUs__about white">
-					HP is the man behind the success. He started his career as an apprentice for Micheal Guldman, and has since then had his own shops in both Kolding and Odense.
+					HP er manden bag succesen. Han startede sin karriere som elev hos Michael Guldman og har sidenhen haft egne butikker i både Kolding og Odense.
 				</p>
 				<img class="aboutUs__pic hp-pic" src="img/hp-desktop.jpg" alt="HP">
 				<img class="aboutUs__pic hp-pic hp-pic2" src="img/hp.jpg" alt="HP">
 				<p class="about aboutUs__about white">
-					HP has tattooed for about 20 years, and has taught up several talented artists during this time. HP is skillful in all styles, but has always had a certain eye for oriental. He loves freehand work, and will gladly create big japanese pieces this way.
+					Han har efterhånden tatoveret i godt 20 år og har oplært adskillige talentfulde elever i tidens løb. Han har både oplært Jonas og Simon, som i dag også er medejere i Århus-shoppen.
+Hp mestrer alle stilarter, men har dog altid haft sans for det orientalske.
+Han elsker frihåndsarbejde og udformer gerne et helt japansk design direkte på kroppen.
+HP er ene-ejer af Odense-shoppen og medejer af Århus-shoppen.
+
 				</p>
 			</section>
 
