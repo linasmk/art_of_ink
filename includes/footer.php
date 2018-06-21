@@ -92,6 +92,11 @@ if ($thisYear > $startYear) {
 
 </section>
 
+  <div id="language" class="text-center">
+                <a href="index.php" hreflang="en"><img src="img/english-flag-icon.ico" alt="english-flag-icon"></a>
+          <a href="index_dk.php" hreflang="da"><img src="img/danish-flag-icon.ico" alt="danish-flag-icon"></a>
+        </div>
+
 </footer>
 
 <div class="copyright">
