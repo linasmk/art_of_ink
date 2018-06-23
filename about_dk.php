@@ -9,19 +9,18 @@
 			<?php require "includes/header_dk.php" ?>
 			
 			<section>
-				<h1 class="aboutUs__about-headline black">About us</h1>
+				<h1 class="aboutUs__about-headline black">Om os</h1>
 
 				<div class="about aboutUs__about white">
 					<p>
-						We are professional tattoo artists with high quality standards and we are not settling down for anything less than greatness in our work. We have made <span id="tattoosMade"></span> tattoos.
+						Vi er professionelle tatovører med en høj standard af tatoveringer og vi accepterer ikke mindre end perfektion, når det kommer til vores arbejde. Vi har lavet sindssygt mange <span id="tattoosMade"></span> tatoveringer.
 					</p>
-					<a class="call-to-action black" target="_blank" href="http://m.me/aoiaarhus">Want to have one too?</a>
+					<a class="call-to-action black" target="_blank" href="http://m.me/aoiaarhus">Vil du også have en?</a>
 				</div>
 
 				<div class="parallax intro"></div>
 				<p class="about aboutUs__about black">
-						Our tattoo shops are located in 2 beautiful cities - Odense and Aarhus.
-						Art of Ink was born back in the 2008 when the first studio in Odense opened.
+						Vores tattooshops er placeret i to smukke byer – Odense og Aarhus. Art of Ink blev født tilbage I 2008, da vores første studio blev åbnet i Odense.
 					</p>
 			</section>
 
@@ -53,4 +52,4 @@ HP er ene-ejer af Odense-shoppen og medejer af Århus-shoppen.
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
 
- <?php include "includes/footer.php" ?>
+ <?php include "includes/footer_dk.php" ?>

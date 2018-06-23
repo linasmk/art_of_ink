@@ -9,9 +9,9 @@
 		<div id="sidebar" class="sidebar">
 			<a href="index_dk.php"><img class="sidebar__img" src="img/logo.png" alt="logo"></a>
 			<ul class="sidebar__menu">
-				<li><a href="index_dk.php">Home</a></li>
-				<li><a href="about_dk.php">About</a></li>
-				<li><a href="artists_dk.php">Artists</a></li>s
+				<li><a href="index_dk.php">Hjem</a></li>
+				<li><a href="about_dk.php">Om</a></li>
+				<li><a href="artists_dk.php">Kunstnere</a></li>s
 			</ul>
 
 			<div class="fb-like" data-href="https://www.facebook.com/aoiaarhus/" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
