@@ -17,7 +17,7 @@ function initMap() {
    marker = new google.maps.Marker({
 	    position: {lat: 56.159174, lng: 10.201936},
 	    map: map,
-	    icon: {url: "img/logo.png.", 
+	    icon: {url: "img/logo.png", 
       scaledSize: new google.maps.Size(90, 90)},
       animation: google.maps.Animation.DROP,
 	    category: "center"
