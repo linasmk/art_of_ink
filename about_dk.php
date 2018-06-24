@@ -27,7 +27,7 @@
 			<div class="parallax diplomas"></div>
 
 			<section>
-					<h1 class="aboutUs__about-headline black">Our pioneer</h1>
+					<h1 class="aboutUs__about-headline black">Vores pioner</h1>
 				<p class="about aboutUs__about white">
 					HP er manden bag succesen. Han startede sin karriere som elev hos Michael Guldman og har sidenhen haft egne butikker i både Kolding og Odense.
 				</p>
