@@ -1,4 +1,4 @@
-<?php $pageTitle = "Art of Ink"; 
+<?php $pageTitle = "Art of Ink";
 $menuTab = "Home";
 
 ?>
@@ -24,11 +24,11 @@ $menuTab = "Home";
 
 			<div class="clearfix"></div>
 
-			
+
 
 			</div>
 
-	
+
 
 			<script src="js/smoothScroll.js"></script>
 			<script src="js/loader.js"></script>
