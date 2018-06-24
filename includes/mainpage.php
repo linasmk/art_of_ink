@@ -6,7 +6,7 @@
 
 	<h1 class="main__about-headline">Who we are</h1>
 	<p>Art of Ink is a group of people with a burning passion towards tattoos. We truly love what we are doing and enjoy the process. Satisfied clients is our drive.</p>
-	<a class="call-to-action white" href="about_dk.php">Want to know more?</a>
+	<a class="call-to-action white" href="about.php">Want to know more?</a>
 
 </section>
 <section class="white">
