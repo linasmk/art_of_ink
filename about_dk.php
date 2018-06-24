@@ -47,7 +47,7 @@ HP er ene-ejer af Odense-shoppen og medejer af Århus-shoppen.
 <script src="js/hamburger.js"></script>
 <script src="js/facebook_like.js"></script>
 <script src="js/date.js"></script>
-<script src="js/counter.js"></script>
+<script src="js/counter_dk.js"></script>
 <script src="js/maps.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
     async defer></script>
