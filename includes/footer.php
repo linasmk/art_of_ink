@@ -102,8 +102,17 @@ if ($thisYear > $startYear) {
 <div class="copyright">
 	<small>&copy; All rights reserved<br> Art of Ink, <?php echo $copyright ?></small>
 </div>
-</div><!-- End of Wrapper -->
 
-<script src="js/date.js"></script>
+</div> <!-- End of Wrapper -->
+
+
+		<!-- Scripts -->
+			<script src="js/date.js"></script>
+			<script src="js/smoothScroll.js"></script>
+			<script src="js/loader.js"></script>
+			<script src="js/hamburger.js"></script>
+			<script src="js/facebook_like.js"></script>
+			<script src="js/maps.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap" async defer></script>
 </body>
 </html>
