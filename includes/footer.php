@@ -103,5 +103,7 @@ if ($thisYear > $startYear) {
 	<small>&copy; All rights reserved<br> Art of Ink, <?php echo $copyright ?></small>
 </div>
 </div><!-- End of Wrapper -->
+
+<script src="js/date.js"></script>
 </body>
 </html>

@@ -1,9 +1,9 @@
 var days = 'sunday,monday,tuesday,wednesday,thursday,friday,saturday'.split(','),
 	currentdate = new Date(),
-	thisDay = currentdate.getDay();
+	thisDay = currentdate.getDay(),
 	time = currentdate.getHours();
 
-document.getElementById( days[thisDay] ).classList.add('bold');
+document.getElementById(days[thisDay]).classList.add('bold');
 
 
 //Function that checks if the current time is inbetween Art of Ink opening hours
