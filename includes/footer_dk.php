@@ -13,16 +13,16 @@ if ($thisYear > $startYear) {
 }
  ?>
 <footer class="footer black" id="contact">
-	<h1 class="footer__h">Kontact</h1>
+	<h1 class="footer__h">Kontakt</h1>
 
 <section class="footer__section">
 
 		<div class="addressWrapper white">
-			<h2 class="footer__h">Phone</h2>
+			<h2 class="footer__h">Telefon</h2>
 			<p class="footer__p">
 				<a href="tel:+4566119060" class="phoneLink"><img class="phoneIcon" src="./img/phone-icon.svg" alt="phone icon">+45 66 11 90 60</a>
 			</p>
-			<h2 class="footer__h">Address</h2>
+			<h2 class="footer__h">Adresse</h2>
 			<address class="footer__p">Grønnegade 58, Aarhus, Denmark-8000</address>
 		</div>
 		
@@ -82,11 +82,11 @@ if ($thisYear > $startYear) {
 		</tr>
 		<tr id="saturday">
 			<td>Lørdag:</td>
-			<td>Closed</td>
+			<td>Lukket</td>
 		</tr>
 		<tr id="sunday">
 			<td>Sondag:</td>
-			<td>Closed</td>
+			<td>Lukket</td>
 		</tr>
 	</table>
 

@@ -9,7 +9,7 @@
 		<?php include "includes/header_dk.php" ?>
 			<main class="main--artists" id="artists">
 				<article class="article--artists-group">
-					<h1>Meet Our Artists</h1>
+					<h1>Møde vores kunstnere</h1>
 					<ul class="artists__ul">
 						<li>
 							<h2>Jonas Willy Brund-Andersen</h2>

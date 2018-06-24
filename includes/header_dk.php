@@ -10,7 +10,7 @@
 			<a href="index_dk.php"><img class="sidebar__img" src="img/logo.png" alt="logo"></a>
 			<ul class="sidebar__menu">
 				<li><a href="index_dk.php">Hjem</a></li>
-				<li><a href="about_dk.php">Om</a></li>
+				<li><a href="about_dk.php">Om os</a></li>
 				<li><a href="artists_dk.php">Kunstnere</a></li>s
 			</ul>
 
