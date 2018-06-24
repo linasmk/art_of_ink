@@ -4,13 +4,13 @@
 
 <section class="about main__about" id="whoAreWe">
 
-	<h1 class="main__about-headline">Who we are</h1>
-	<p>Art of Ink is a group of people with a burning passion towards tattoos. We truly love what we are doing and enjoy the process. Satisfied clients is our drive.</p>
-	<a class="call-to-action white" href="about_dk.php">Want to know more?</a>
+	<h1 class="main__about-headline">Hvem er vi? </h1>
+	<p>Art of Ink er en gruppe mennesker, der brænder for tatoveringer. Vi elsker virkelig, hvad vi laver og nyder hvert et skridt i processen. Glade kunder er det, der motiverer os.</p>
+	<a class="call-to-action white" href="about_dk.php">Vil du vide mere?</a>
 
 </section>
 <section class="white">
-		<h1 class="main__works-headline">Our works</h1>
+		<h1 class="main__works-headline">Vores arbejde </h1>
 
 <!--instagram feed section https://github.com/SpaceG/instagrid.css -->
 <div class="insta">

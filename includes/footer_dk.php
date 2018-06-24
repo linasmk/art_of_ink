@@ -6,14 +6,14 @@ $siteroot = "";
 $startYear = 2008;
 $thisYear = date('Y');
 if ($thisYear > $startYear) {
-    $thisYear = date('Y');
-    $copyright = "$startYear &dash; $thisYear";
+    $thisYear = date('y');
+    $copyright = "$startYear&dash;$thisYear";
 } else {
     $copyright = $startYear;
 }
  ?>
 <footer class="footer black" id="contact">
-	<h1 class="footer__h">Contact</h1>
+	<h1 class="footer__h">Kontact</h1>
 
 <section class="footer__section">
 
@@ -51,7 +51,7 @@ if ($thisYear > $startYear) {
 
 <section class="footer__section openingHours__section">
 
-	<h2 class="footer__h">Opening hours</h2>
+	<h2 class="footer__h">Åbningstider</h2>
 
 	<p>We are <span class="bold" id="openStatus"></span></p>
 
@@ -61,31 +61,31 @@ if ($thisYear > $startYear) {
 
 	<table class="openingHours__table">
 		<tr id="monday">
-			<td>Monday:</td>
+			<td>Mandag:</td>
 			<td>10 - 18</td>
 		</tr>
 		<tr id="tuesday">
-			<td>Tuesday:</td>
+			<td>Tirsdag:</td>
 			<td>11 - 19</td>
 		</tr>
 		<tr id="wednesday">
-			<td>Wednesday:</td>
+			<td>Onsdag:</td>
 			<td>10 - 18</td>
 		</tr>
 		<tr id="thursday">
-			<td>Thursday:</td>
+			<td>Torsdag:</td>
 			<td>10 - 18</td>
 		</tr>
 		<tr id="friday">
-			<td>Friday:</td>
+			<td>Fredag:</td>
 			<td>10 - 18</td>
 		</tr>
 		<tr id="saturday">
-			<td>Saturday:</td>
+			<td>Lørdag:</td>
 			<td>Closed</td>
 		</tr>
 		<tr id="sunday">
-			<td>Sunday:</td>
+			<td>Sondag:</td>
 			<td>Closed</td>
 		</tr>
 	</table>
