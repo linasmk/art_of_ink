@@ -6,8 +6,8 @@ $siteroot = "";
 $startYear = 2008;
 $thisYear = date('Y');
 if ($thisYear > $startYear) {
-    $thisYear = date('y');
-    $copyright = "$startYear&dash;$thisYear";
+    $thisYear = date('Y');
+    $copyright = "$startYear &dash; $thisYear";
 } else {
     $copyright = $startYear;
 }
