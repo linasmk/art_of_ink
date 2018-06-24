@@ -13,7 +13,7 @@
 
 				<div class="about aboutUs__about white">
 					<p>
-						Vi er professionelle tatovører med en høj standard af tatoveringer og vi accepterer ikke mindre end perfektion, når det kommer til vores arbejde. Vi har lavet sindssygt mange <span id="tattoosMade"></span> tatoveringer.
+						Vi er professionelle tatovører med en høj standard af tatoveringer og vi accepterer ikke mindre end perfektion, når det kommer til vores arbejde. Vi har lavet <span id="tattoosMade"></span> tatoveringer.
 					</p>
 					<a class="call-to-action black" target="_blank" href="http://m.me/aoiaarhus">Vil du også have en?</a>
 				</div>
