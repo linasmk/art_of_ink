@@ -28,15 +28,4 @@ $menuTab = "Home";
 
 			</div>
 
-	
-
-			<script src="js/smoothScroll.js"></script>
-			<script src="js/loader.js"></script>
-			<script src="js/hamburger.js"></script>
-			<script src="js/facebook_like.js"></script>
-			<script src="js/date.js"></script>
-			<script src="js/maps.js"></script>
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ED7FrptqUOzKtwuRS134pYzziGJTtQk&callback=initMap"
-			    async defer></script>
-
 <?php include "includes/footer_dk.php" ?>
