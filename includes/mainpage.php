@@ -1,5 +1,5 @@
 <h1 id="mainHeadline" class="main__headline"></h1>
-<a class = "video_btn"href="https://www.youtube.com/watch?v=T9N2vJzCPcY&feature=youtu.be">Watch Full Video</a>
+<a class = "video_btn" href="https://www.youtube.com/watch?v=T9N2vJzCPcY&feature=youtu.be" target="_blank">Watch Full Video</a>
 <img id="scrollDown" class="scrollDown d-none" src="./img/mouse-icon.svg" alt="mouse-icon">
 
 
